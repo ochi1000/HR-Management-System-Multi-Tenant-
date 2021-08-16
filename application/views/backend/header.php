@@ -61,7 +61,7 @@ date_default_timezone_set('Asia/Dhaka');
                 <div class="navbar-header">
                     <a class="navbar-brand" href="<?php echo base_url(); ?>">
 						<b>
-                        <img src="<?php echo base_url();?>assets/images/<?php echo $settingsvalue->sitelogo; ?>" alt="DRI" class="DRI-logo" height="70px" width="100px"/>
+                        <img src="<?php echo base_url();?>assets/images/<?php echo $settingsvalue->sitelogo; ?>" alt="DRI" class="DRI-logo" class="mt-3" height="80px" width="100px"/>
                         </b>
                          </a>
                 </div>
