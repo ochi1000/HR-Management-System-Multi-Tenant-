@@ -6065,9 +6065,7 @@ a.mytooltip {
     height: 100%;
     width: 100%;
     padding: 5% 0;
-    position: fixed;
-    display: flex;
-    align-items: center;
+    position: fixed
 }
 
 .login-box {
@@ -6096,11 +6094,12 @@ a.mytooltip {
 }
 
 .login-sidebar .login-box {
-    eft: 0px;
+    left: 0px;
     position: absolute;
     height: 80%;
     /* padding: 100px; */
-    margin: 0 100px;
+    margin-left: 400px;
+	width: 500px;
 }
 
 .minimal-faq .card {
