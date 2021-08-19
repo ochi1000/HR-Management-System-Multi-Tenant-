@@ -1597,8 +1597,8 @@ html body .waves-notransition {
 .open>.dropdown-toggle.btn-info.focus,
 .open>.dropdown-toggle.btn-info:focus,
 .open>.dropdown-toggle.btn-info:hover {
-    background-color: #028ee1;
-    border: 1px solid #028ee1
+    background-color: #1e007f;
+    border: 1px solid #1e007f;
 }
 
 .btn-warning.active.focus,
