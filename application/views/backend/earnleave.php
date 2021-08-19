@@ -38,15 +38,15 @@
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
-                                        <tfoot>
+                                        <!-- <tfoot>
                                             <tr>
                                                 <th>Employee PIN</th>
                                                 <th>Employee Name </th>
-                                                <!--<th>Total Day </th>-->
+                                                <th>Total Day </th>
                                                 <th>Total Hour </th>
                                                 <th>Action</th>
                                             </tr>
-                                        </tfoot>
+                                        </tfoot> -->
                                         <tbody>
                                            <?php foreach($earnleave as $value): ?>
                                             <tr>

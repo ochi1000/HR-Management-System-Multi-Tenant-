@@ -281,7 +281,7 @@
                                     <th>Action</th>
                                 </tr>
                             </thead>
-                            <tfoot>
+                            <!-- <tfoot>
                                 <tr>
                                     <th>ID </th>
                                     <th>Certificate name</th>
@@ -290,7 +290,7 @@
                                     <th>year</th>
                                     <th>Action</th>
                                 </tr>
-                            </tfoot>
+                            </tfoot> -->
                             <tbody>
                                <?php foreach($education as $value): ?>
                                 <tr>
@@ -359,7 +359,7 @@
                                     <th>Action</th>
                                 </tr>
                             </thead>
-                            <tfoot>
+                            <!-- <tfoot>
                                 <tr>
                                     <th>ID </th>
                                     <th>Company name</th>
@@ -367,7 +367,7 @@
                                     <th>Work Duration </th>
                                     <th>Action</th>
                                 </tr>
-                            </tfoot>
+                            </tfoot> -->
                             <tbody>
                                <?php foreach($experience as $value): ?>
                                 <tr>
@@ -461,13 +461,13 @@
                                     <th>File </th>
                                 </tr>
                             </thead>
-                            <tfoot>
+                            <!-- <tfoot>
                                 <tr>
                                     <th>ID </th>
                                     <th>File Title</th>
                                     <th>File </th>
                                 </tr>
-                            </tfoot>
+                            </tfoot> -->
                             <tbody>
                                <?php foreach($fileinfo as $value): ?>
                                 <tr>

@@ -86,7 +86,7 @@
 							<div class="card">
 								<div class="card-body">
 									<div class="d-flex flex-row">
-										<div class="round align-self-center round-success"><i class="ti-settings"></i></div>
+										<div class="round align-self-center round-loan"><i class="ti-settings"></i></div>
 										<div class="m-l-10 align-self-center">
 											<h3 class="m-b-0">
 											<?php 
@@ -242,7 +242,7 @@
                                 <div class="new-todo">
                                    <form method="post" action="add_todo" enctype="multipart/form-data" id="add_todo" >
                                     <div class="input-group">
-                                        <input type="text" name="todo_data" class="form-control" style="border: 1px solid #fff !IMPORTANT;" placeholder="Add new task">
+                                        <input type="text" name="todo_data" class="form-control" style="border: 1px solid #1e007f !IMPORTANT;" placeholder="Add new task">
                                         <span class="input-group-btn">
                                         <input type="hidden" name="userid" value="<?php echo $this->session->userdata('user_login_id'); ?>">
                                         <button type="submit" class="btn btn-success todo-submit"><i class="fa fa-plus"></i></button>

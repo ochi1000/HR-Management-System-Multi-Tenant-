@@ -56,7 +56,7 @@ a.link {
 
 a.link:focus,
 a.link:hover {
-    color: #1976d2
+    color: #1e007f
 }
 
 .img-responsive {
@@ -144,7 +144,7 @@ html body .db {
 }
 
 html body blockquote {
-    border-left: 5px solid #1976d2;
+    border-left: 5px solid #1e007f;
     border: 1px solid rgba(120, 130, 140, 0.13);
     padding: 15px
 }
@@ -477,7 +477,7 @@ html body .b-all {
 }
 
 .text-info {
-    color: #1976d2!important
+    color: #1e007f!important
 }
 
 .text-inverse {
@@ -505,7 +505,7 @@ html body .text-dark {
 }
 
 html body .text-themecolor {
-    color: #1976d2
+    color: #1e007f
 }
 
 .bg-primary {
@@ -517,7 +517,7 @@ html body .text-themecolor {
 }
 
 .bg-info {
-    background-color: #1976d2!important
+    background-color: #1e007f!important
 }
 
 .bg-warning {
@@ -533,7 +533,7 @@ html body .bg-megna {
 }
 
 html body .bg-theme {
-    background-color: #1976d2
+    background-color: #1e007f
 }
 
 html body .bg-inverse {
@@ -593,7 +593,7 @@ html body .bg-white {
     font-weight: 400;
     text-align: center;
     border-radius: 100%;
-    background: #1976d2
+    background: #1e007f
 }
 
 .round img {
@@ -608,23 +608,27 @@ html body .bg-white {
 }
 
 .round.round-info {
-    background: #1976d2
+	background: #a6358a;
 }
 
 .round.round-warning {
-    background: #ffb22b
+    background: #ffb22b;
 }
 
 .round.round-danger {
-    background: #ef5350
+    background: #5ba8fc;
 }
 
 .round.round-success {
-    background: #26dad2
+    background: #1e007f;
+}
+
+.round.round-loan {
+    background: #4c6db9;
 }
 
 .round.round-primary {
-    background: #5c4ac7
+    background: #5c4ac7;
 }
 
 .label {
@@ -649,7 +653,7 @@ html body .bg-white {
 }
 
 .label-info {
-    background-color: #1976d2
+    background-color: #1e007f
 }
 
 .label-warning {
@@ -695,7 +699,7 @@ html body .bg-white {
 
 .label-light-info {
     background-color: #cfecfe;
-    color: #1976d2
+    color: #1e007f
 }
 
 .label-light-warning {
@@ -769,8 +773,8 @@ html body .bg-white {
 .pagination>.active>span,
 .pagination>.active>span:focus,
 .pagination>.active>span:hover {
-    background-color: #1976d2;
-    border-color: #1976d2
+    background-color: #1e007f;
+    border-color: #1e007f
 }
 
 .pager li>a,
@@ -966,7 +970,7 @@ html body .waves-notransition {
 }
 
 .badge-info {
-    background-color: #1976d2
+    background-color: #1e007f
 }
 
 .badge-primary {
@@ -1153,16 +1157,16 @@ html body .waves-notransition {
 
 .btn-themecolor,
 .btn-themecolor.disabled {
-    background: #1976d2;
+    background: #1e007f;
     color: #ffffff;
-    border: 1px solid #1976d2
+    border: 1px solid #1e007f
 }
 
 .btn-themecolor.disabled:hover,
 .btn-themecolor:hover {
-    background: #1976d2;
+    background: #1e007f;
     opacity: 0.7;
-    border: 1px solid #1976d2
+    border: 1px solid #1e007f
 }
 
 .btn-themecolor.active,
@@ -1176,8 +1180,8 @@ html body .waves-notransition {
 
 .btn-success,
 .btn-success.disabled {
-    background: #26dad2;
-    border: 1px solid #26dad2;
+    background: #1e007f;
+    border: 1px solid #1e007f;
     -webkit-box-shadow: 0 2px 2px 0 rgba(40, 190, 189, 0.14), 0 3px 1px -2px rgba(40, 190, 189, 0.2), 0 1px 5px 0 rgba(40, 190, 189, 0.12);
     box-shadow: 0 2px 2px 0 rgba(40, 190, 189, 0.14), 0 3px 1px -2px rgba(40, 190, 189, 0.2), 0 1px 5px 0 rgba(40, 190, 189, 0.12);
     -webkit-transition: 0.2s ease-in;
@@ -1206,8 +1210,8 @@ html body .waves-notransition {
 
 .btn-info,
 .btn-info.disabled {
-    background: #1976d2;
-    border: 1px solid #1976d2;
+    background: #1e007f;
+    border: 1px solid #1e007f;
     -webkit-box-shadow: 0 2px 2px 0 rgba(66, 165, 245, 0.14), 0 3px 1px -2px rgba(66, 165, 245, 0.2), 0 1px 5px 0 rgba(66, 165, 245, 0.12);
     box-shadow: 0 2px 2px 0 rgba(66, 165, 245, 0.14), 0 3px 1px -2px rgba(66, 165, 245, 0.2), 0 1px 5px 0 rgba(66, 165, 245, 0.12);
     -webkit-transition: 0.2s ease-in;
@@ -1217,8 +1221,8 @@ html body .waves-notransition {
 
 .btn-info.disabled:hover,
 .btn-info:hover {
-    background: #1976d2;
-    border: 1px solid #1976d2;
+    background: #1e007f;
+    border: 1px solid #1e007f;
     -webkit-box-shadow: 0 14px 26px -12px rgba(23, 105, 255, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(23, 105, 255, 0.2);
     box-shadow: 0 14px 26px -12px rgba(23, 105, 255, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(23, 105, 255, 0.2)
 }
@@ -1428,9 +1432,9 @@ html body .waves-notransition {
 }
 
 .btn-outline-info {
-    color: #1976d2;
+    color: #1e007f;
     background-color: transparent;
-    border-color: #1976d2;
+    border-color: #1e007f;
     -webkit-box-shadow: 0 2px 2px 0 rgba(66, 165, 245, 0.14), 0 3px 1px -2px rgba(66, 165, 245, 0.2), 0 1px 5px 0 rgba(66, 165, 245, 0.12);
     box-shadow: 0 2px 2px 0 rgba(66, 165, 245, 0.14), 0 3px 1px -2px rgba(66, 165, 245, 0.2), 0 1px 5px 0 rgba(66, 165, 245, 0.12);
     -webkit-transition: 0.2s ease-in;
@@ -1441,8 +1445,8 @@ html body .waves-notransition {
 .btn-outline-info.focus,
 .btn-outline-info:focus,
 .btn-outline-info:hover {
-    background: #1976d2;
-    border-color: #1976d2;
+    background: #1e007f;
+    border-color: #1e007f;
     color: #ffffff;
     -webkit-box-shadow: 0 14px 26px -12px rgba(23, 105, 255, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(23, 105, 255, 0.2);
     box-shadow: 0 14px 26px -12px rgba(23, 105, 255, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(23, 105, 255, 0.2)
@@ -1882,7 +1886,7 @@ ul.list-style-none li a {
 }
 
 ul.list-style-none li a:hover {
-    color: #1976d2
+    color: #1e007f
 }
 
 .dropdown-item {
@@ -2047,7 +2051,8 @@ form label {
 
 .topbar {
     position: relative;
-    z-index: 50
+    z-index: 50;
+	background: #1e007f !important ; 
 }
 
 .topbar .top-navbar {
@@ -2172,7 +2177,7 @@ form label {
 
 .topbar ul.dropdown-user li a:hover {
     background: #f2f4f8;
-    color: #1976d2;
+    color: #1e007f;
     text-decoration: none
 }
 
@@ -2347,7 +2352,7 @@ form label {
     color: #ffffff;
     text-transform: uppercase;
     font-size: 15px;
-    background: #1976d2
+    background: #1e007f
 }
 
 .right-sidebar .rpanel-title span {
@@ -2453,7 +2458,7 @@ ul#themecolors li a.working:before {
 }
 
 .blue-theme {
-    background: #1976d2
+    background: #1e007f
 }
 
 .purple-theme {
@@ -2494,11 +2499,11 @@ ul#themecolors li a.working:before {
 
 .blue-dark-theme {
     background: #263238;
-    background: -moz-linear-gradient(left, #263238 0%, #263238 23%, #1976d2 23%, #1976d2 99%);
-    background: -webkit-linear-gradient(left, #263238 0%, #263238 23%, #1976d2 23%, #1976d2 99%);
-    background: -webkit-gradient(linear, left top, right top, from(#263238), color-stop(23%, #263238), color-stop(23%, #1976d2), color-stop(99%, #1976d2));
-    background: -o-linear-gradient(left, #263238 0%, #263238 23%, #1976d2 23%, #1976d2 99%);
-    background: linear-gradient(to right, #263238 0%, #263238 23%, #1976d2 23%, #1976d2 99%)
+    background: -moz-linear-gradient(left, #263238 0%, #263238 23%, #1e007f 23%, #1e007f 99%);
+    background: -webkit-linear-gradient(left, #263238 0%, #263238 23%, #1e007f 23%, #1e007f 99%);
+    background: -webkit-gradient(linear, left top, right top, from(#263238), color-stop(23%, #263238), color-stop(23%, #1e007f), color-stop(99%, #1e007f));
+    background: -o-linear-gradient(left, #263238 0%, #263238 23%, #1e007f 23%, #1e007f 99%);
+    background: linear-gradient(to right, #263238 0%, #263238 23%, #1e007f 23%, #1e007f 99%)
 }
 
 .purple-dark-theme {
@@ -2561,13 +2566,13 @@ ul#themecolors li a.working:before {
 }
 
 .card-success {
-    background: #26dad2;
-    border-color: #26dad2
+	background: #a6358a;
+	/* border-color: #26dad2 */
 }
 
 .card-danger {
-    background: #ef5350;
-    border-color: #ef5350
+    background: #5ba8fc;
+    /* border-color: #ef5350 */
 }
 
 .card-warning {
@@ -2576,8 +2581,8 @@ ul#themecolors li a.working:before {
 }
 
 .card-info {
-    background: #1976d2;
-    border-color: #1976d2
+    background: #1e007f;
+    border-color: #1e007f
 }
 
 .card-primary {
@@ -2586,8 +2591,8 @@ ul#themecolors li a.working:before {
 }
 
 .card-dark {
-    background: #2f3d4a;
-    border-color: #2f3d4a
+    background: #4c6db9;
+    /* border-color: #2f3d4a */
 }
 
 .card-megna {
@@ -2644,8 +2649,8 @@ ul#themecolors li a.working:before {
 }
 
 .card-info {
-    background: #1976d2;
-    border-color: #1976d2
+    background: #1e007f;
+    border-color: #1e007f
 }
 
 .card-primary {
@@ -2654,12 +2659,12 @@ ul#themecolors li a.working:before {
 }
 
 .card-outline-info {
-    border-color: #1976d2
+    border-color: #1e007f
 }
 
 .card-outline-info .card-header {
-    background: #1976d2;
-    border-color: #1976d2
+    background: #1e007f;
+    border-color: #1e007f
 }
 
 .card-outline-inverse {
@@ -2744,7 +2749,7 @@ ul.list-icons li a {
 }
 
 ul.list-icons li a:hover {
-    color: #1976d2
+    color: #1e007f
 }
 
 ul.list-icons li i {
@@ -2865,7 +2870,7 @@ body .jqstooltip {
 }
 
 .amp-pxl .ct-series-a .ct-bar {
-    stroke: #1976d2
+    stroke: #1e007f
 }
 
 .amp-pxl .ct-series-b .ct-bar {
@@ -2896,7 +2901,7 @@ html body #visitor .c3-chart-arcs-title {
 
 .stylish-table tbody tr.active,
 .stylish-table tbody tr:hover {
-    border-left: 4px solid #1976d2
+    border-left: 4px solid #1e007f
 }
 
 .stylish-table tbody td {
@@ -2930,13 +2935,13 @@ html body #visitor .c3-chart-arcs-title {
 }
 
 .campaign .ct-series-b .ct-area {
-    fill: #1976d2;
+    fill: #1e007f;
     fill-opacity: 0.1
 }
 
 .campaign .ct-series-b .ct-line,
 .campaign .ct-series-b .ct-point {
-    stroke: #1976d2;
+    stroke: #1e007f;
     stroke-width: 2px
 }
 
@@ -2957,13 +2962,13 @@ html body #visitor .c3-chart-arcs-title {
 }
 
 .campaign2 .ct-series-b .ct-area {
-    fill: #1976d2;
+    fill: #1e007f;
     fill-opacity: 0.1
 }
 
 .campaign2 .ct-series-b .ct-line,
 .campaign2 .ct-series-b .ct-point {
-    stroke: #1976d2;
+    stroke: #1e007f;
     stroke-width: 2px
 }
 
@@ -2986,7 +2991,7 @@ html body #visitor .c3-chart-arcs-title {
 }
 
 .total-sales .ct-series-a .ct-bar {
-    stroke: #1976d2
+    stroke: #1e007f
 }
 
 .total-sales .ct-series-b .ct-bar {
@@ -3010,7 +3015,7 @@ html body #visitor .c3-chart-arcs-title {
 }
 
 .ct-chart .ct-series-c .ct-slice-donut {
-    stroke: #1976d2
+    stroke: #1e007f
 }
 
 #visitfromworld path.jvectormap-region.jvectormap-element {
@@ -3048,12 +3053,12 @@ html body #visitor .c3-chart-arcs-title {
 }
 
 .total-revenue4 .ct-series-a .ct-line {
-    stroke: #1976d2;
+    stroke: #1e007f;
     stroke-width: 1px
 }
 
 .total-revenue4 .ct-series-a .ct-point {
-    stroke: #1976d2;
+    stroke: #1e007f;
     stroke-width: 5px
 }
 
@@ -3068,7 +3073,7 @@ html body #visitor .c3-chart-arcs-title {
 }
 
 .total-revenue4 .ct-series-a .ct-area {
-    fill: #1976d2;
+    fill: #1e007f;
     fill-opacity: 0.2
 }
 
@@ -3197,14 +3202,14 @@ html body #visitor .c3-chart-arcs-title {
 
 .customtab li a.nav-link.active,
 .profile-tab li a.nav-link.active {
-    border-bottom: 2px solid #1976d2;
-    color: #1976d2;
+    border-bottom: 2px solid #1e007f;
+    color: #1e007f;
     /* font-family: 'Open Sans', sans-serif; */
 }
 
 .customtab li a.nav-link:hover,
 .profile-tab li a.nav-link:hover {
-    color: #1976d2
+    color: #1e007f
 }
 
 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
@@ -3223,7 +3228,7 @@ html body #visitor .c3-chart-arcs-title {
 
 .bootstrap-select .dropdown-menu li a:focus,
 .bootstrap-select .dropdown-menu li a:hover {
-    color: #1976d2;
+    color: #1e007f;
     background: #f2f4f8
 }
 
@@ -3274,10 +3279,10 @@ html body #visitor .c3-chart-arcs-title {
 .form-material .form-control,
 .form-material .form-control.focus,
 .form-material .form-control:focus {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#1976d2), to(#1976d2)), -webkit-gradient(linear, left top, left bottom, from(rgba(120, 130, 140, 0.13)), to(rgba(120, 130, 140, 0.13)));
-    background-image: -webkit-linear-gradient(#1976d2, #1976d2), -webkit-linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
-    background-image: -o-linear-gradient(#1976d2, #1976d2), -o-linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
-    background-image: linear-gradient(#1976d2, #1976d2), linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1e007f), to(#1e007f)), -webkit-gradient(linear, left top, left bottom, from(rgba(120, 130, 140, 0.13)), to(rgba(120, 130, 140, 0.13)));
+    background-image: -webkit-linear-gradient(#1e007f, #1e007f), -webkit-linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
+    background-image: -o-linear-gradient(#1e007f, #1e007f), -o-linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
+    background-image: linear-gradient(#1e007f, #1e007f), linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
     border: 0 none;
     border-radius: 0;
     -webkit-box-shadow: none;
@@ -3306,7 +3311,7 @@ html body #visitor .c3-chart-arcs-title {
 }
 
 .form-control-line .form-control:focus {
-    border-bottom: 1px solid #1976d2
+    border-bottom: 1px solid #1e007f
 }
 
 .floating-labels .form-group {
@@ -3372,7 +3377,7 @@ html body #visitor .c3-chart-arcs-title {
     width: 0;
     bottom: 1px;
     position: absolute;
-    background: #1976d2;
+    background: #1e007f;
     -o-transition: 0.2s ease all;
     transition: 0.2s ease all;
     -moz-transition: 0.2s ease all;
@@ -3540,14 +3545,14 @@ table th {
 
 .daterangepicker td.active,
 .daterangepicker td.active:hover {
-    background-color: #1976d2
+    background-color: #1e007f
 }
 
 .datepicker table tr td.today,
 .datepicker table tr td.today.disabled,
 .datepicker table tr td.today.disabled:hover,
 .datepicker table tr td.today:hover {
-    background: #1976d2;
+    background: #1e007f;
     color: #ffffff
 }
 
@@ -3593,7 +3598,7 @@ table th {
 }
 
 .icolors>li.info {
-    background: #1976d2
+    background: #1e007f
 }
 
 .icolors>li.green {
@@ -3664,7 +3669,7 @@ table th {
 }
 
 .color-table.info-table thead th {
-    background-color: #1976d2;
+    background-color: #1e007f;
     color: #ffffff
 }
 
@@ -3722,11 +3727,11 @@ table th {
 }
 
 .color-bordered-table.info-bordered-table {
-    border: 2px solid #1976d2
+    border: 2px solid #1e007f
 }
 
 .color-bordered-table.info-bordered-table thead th {
-    background-color: #1976d2;
+    background-color: #1e007f;
     color: #ffffff
 }
 
@@ -3836,7 +3841,7 @@ table th {
 }
 
 .full-color-table.full-info-table thead th {
-    background-color: #1976d2;
+    background-color: #1e007f;
     border: 0;
     color: #ffffff
 }
@@ -3846,7 +3851,7 @@ table th {
 }
 
 .full-color-table.full-info-table tr:hover {
-    background-color: #1976d2;
+    background-color: #1e007f;
     color: #ffffff
 }
 
@@ -3997,7 +4002,7 @@ table th {
 .dt-buttons .dt-button {
     padding: 5px 15px;
     border-radius: 4px;
-    background: #1976d2;
+    background: #1e007f;
     color: #ffffff;
     margin-right: 3px
 }
@@ -4017,10 +4022,10 @@ table th {
 
 .dataTables_length select {
     border: 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#1976d2), to(#1976d2)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
-    background-image: -webkit-linear-gradient(#1976d2, #1976d2), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: -o-linear-gradient(#1976d2, #1976d2), -o-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: linear-gradient(#1976d2, #1976d2), linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1e007f), to(#1e007f)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
+    background-image: -webkit-linear-gradient(#1e007f, #1e007f), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -o-linear-gradient(#1e007f, #1e007f), -o-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: linear-gradient(#1e007f, #1e007f), linear-gradient(#b1b8bb, #b1b8bb);
     background-size: 0 2px, 100% 1px;
     background-repeat: no-repeat;
     background-position: center bottom, center calc(100% - 1px);
@@ -4033,10 +4038,10 @@ table th {
 
 .dataTables_length select:focus {
     outline: none;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#1976d2), to(#1976d2)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
-    background-image: -webkit-linear-gradient(#1976d2, #1976d2), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: -o-linear-gradient(#1976d2, #1976d2), -o-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: linear-gradient(#1976d2, #1976d2), linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1e007f), to(#1e007f)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
+    background-image: -webkit-linear-gradient(#1e007f, #1e007f), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -o-linear-gradient(#1e007f, #1e007f), -o-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: linear-gradient(#1e007f, #1e007f), linear-gradient(#b1b8bb, #b1b8bb);
     background-size: 100% 2px, 100% 1px;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -4052,10 +4057,10 @@ table th {
 
 .dataTables_filter input {
     border: 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#1976d2), to(#1976d2)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
-    background-image: -webkit-linear-gradient(#1976d2, #1976d2), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: -o-linear-gradient(#1976d2, #1976d2), -o-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: linear-gradient(#1976d2, #1976d2), linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1e007f), to(#1e007f)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
+    background-image: -webkit-linear-gradient(#1e007f, #1e007f), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -o-linear-gradient(#1e007f, #1e007f), -o-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: linear-gradient(#1e007f, #1e007f), linear-gradient(#b1b8bb, #b1b8bb);
     background-size: 0 2px, 100% 1px;
     background-repeat: no-repeat;
     background-position: center bottom, center calc(100% - 1px);
@@ -4072,10 +4077,10 @@ table th {
 
 .dataTables_filter input:focus {
     outline: none;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#1976d2), to(#1976d2)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
-    background-image: -webkit-linear-gradient(#1976d2, #1976d2), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: -o-linear-gradient(#1976d2, #1976d2), -o-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: linear-gradient(#1976d2, #1976d2), linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1e007f), to(#1e007f)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
+    background-image: -webkit-linear-gradient(#1e007f, #1e007f), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -o-linear-gradient(#1e007f, #1e007f), -o-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: linear-gradient(#1e007f, #1e007f), linear-gradient(#b1b8bb, #b1b8bb);
     background-size: 100% 2px, 100% 1px;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -4137,8 +4142,8 @@ table.dataTable thead .sorting:after {
 .dataTables_wrapper .dataTables_paginate .paginate_button.current,
 .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
     color: #ffffff!important;
-    border: 1px solid #1976d2;
-    background-color: #1976d2
+    border: 1px solid #1e007f;
+    background-color: #1e007f
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button.disabled,
@@ -4154,8 +4159,8 @@ table.dataTable thead .sorting:after {
 
 .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
     color: white;
-    border: 1px solid #1976d2;
-    background-color: #1976d2
+    border: 1px solid #1e007f;
+    background-color: #1e007f
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button:active {
@@ -4191,16 +4196,16 @@ table.dataTable thead .sorting:after {
 
 .paging_simple_numbers .pagination .paginate_button.active a,
 .paging_simple_numbers .pagination .paginate_button:hover a {
-    background: #1976d2;
+    background: #1e007f;
     color: #ffffff
 }
 
 #demo-show-entries {
     border: 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#1976d2), to(#1976d2)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
-    background-image: -webkit-linear-gradient(#1976d2, #1976d2), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: -o-linear-gradient(#1976d2, #1976d2), -o-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: linear-gradient(#1976d2, #1976d2), linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1e007f), to(#1e007f)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
+    background-image: -webkit-linear-gradient(#1e007f, #1e007f), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -o-linear-gradient(#1e007f, #1e007f), -o-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: linear-gradient(#1e007f, #1e007f), linear-gradient(#b1b8bb, #b1b8bb);
     background-size: 0 2px, 100% 1px;
     background-repeat: no-repeat;
     background-position: center bottom, center calc(100% - 1px);
@@ -4214,10 +4219,10 @@ table.dataTable thead .sorting:after {
 
 #demo-show-entries:focus {
     outline: none;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#1976d2), to(#1976d2)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
-    background-image: -webkit-linear-gradient(#1976d2, #1976d2), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: -o-linear-gradient(#1976d2, #1976d2), -o-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: linear-gradient(#1976d2, #1976d2), linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1e007f), to(#1e007f)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
+    background-image: -webkit-linear-gradient(#1e007f, #1e007f), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -o-linear-gradient(#1e007f, #1e007f), -o-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: linear-gradient(#1e007f, #1e007f), linear-gradient(#b1b8bb, #b1b8bb);
     background-size: 100% 2px, 100% 1px;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -4228,10 +4233,10 @@ table.dataTable thead .sorting:after {
 
 #demo-input-search2 {
     border: 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#1976d2), to(#1976d2)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
-    background-image: -webkit-linear-gradient(#1976d2, #1976d2), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: -o-linear-gradient(#1976d2, #1976d2), -o-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: linear-gradient(#1976d2, #1976d2), linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1e007f), to(#1e007f)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
+    background-image: -webkit-linear-gradient(#1e007f, #1e007f), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -o-linear-gradient(#1e007f, #1e007f), -o-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: linear-gradient(#1e007f, #1e007f), linear-gradient(#b1b8bb, #b1b8bb);
     background-size: 0 2px, 100% 1px;
     background-repeat: no-repeat;
     background-position: center bottom, center calc(100% - 1px);
@@ -4249,10 +4254,10 @@ table.dataTable thead .sorting:after {
 
 #demo-input-search2:focus {
     outline: none;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#1976d2), to(#1976d2)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
-    background-image: -webkit-linear-gradient(#1976d2, #1976d2), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: -o-linear-gradient(#1976d2, #1976d2), -o-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: linear-gradient(#1976d2, #1976d2), linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1e007f), to(#1e007f)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
+    background-image: -webkit-linear-gradient(#1e007f, #1e007f), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -o-linear-gradient(#1e007f, #1e007f), -o-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: linear-gradient(#1e007f, #1e007f), linear-gradient(#b1b8bb, #b1b8bb);
     background-size: 100% 2px, 100% 1px;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -4383,7 +4388,7 @@ table.dataTable thead .sorting:after {
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-info,
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-info {
     color: #ffffff;
-    background: #1976d2
+    background: #1e007f
 }
 
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-success,
@@ -4493,7 +4498,7 @@ table.dataTable thead .sorting:after {
 }
 
 .dp-selected[style] {
-    background-color: #1976d2!important
+    background-color: #1e007f!important
 }
 
 .datepaginator-lg .pagination li a,
@@ -4550,7 +4555,7 @@ table.dataTable thead .sorting:after {
 .tabs-vertical li .nav-link.active,
 .tabs-vertical li .nav-link.active:focus,
 .tabs-vertical li .nav-link:hover {
-    background: #1976d2;
+    background: #1e007f;
     border: 0px;
     color: #ffffff
 }
@@ -4560,9 +4565,9 @@ table.dataTable thead .sorting:after {
 .customvtab .tabs-vertical li .nav-link:hover {
     background: #ffffff;
     border: 0px;
-    border-right: 2px solid #1976d2;
+    border-right: 2px solid #1e007f;
     margin-right: -1px;
-    color: #1976d2
+    color: #1e007f
 }
 
 .tabcontent-border {
@@ -4577,13 +4582,13 @@ table.dataTable thead .sorting:after {
 }
 
 .customtab2 li a.nav-link.active {
-    background: #1976d2;
+    background: #1e007f;
     color: #ffffff
 }
 
 .customtab2 li a.nav-link:hover {
     color: #ffffff;
-    background: #1976d2
+    background: #1e007f
 }
 
 .progress-bar.active,
@@ -4637,7 +4642,7 @@ table.dataTable thead .sorting:after {
 }
 
 .jq-icon-info {
-    background-color: #1976d2;
+    background-color: #1e007f;
     color: #ffffff
 }
 
@@ -4666,8 +4671,8 @@ table.dataTable thead .sorting:after {
 
 .list-group-item.active,
 .list-group .list-group-item.active:hover {
-    background: #1976d2;
-    border-color: #1976d2
+    background: #1e007f;
+    border-color: #1e007f
 }
 
 .list-group-item.disabled {
@@ -4707,7 +4712,7 @@ table.dataTable thead .sorting:after {
 }
 
 .el-element-overlay .el-card-item .el-card-content a:hover {
-    color: #1976d2
+    color: #1e007f
 }
 
 .el-element-overlay .el-card-item .el-overlay-1 {
@@ -4768,8 +4773,8 @@ table.dataTable thead .sorting:after {
 }
 
 .el-element-overlay .el-card-item .el-overlay-1 .el-info>li a:hover {
-    background: #1976d2;
-    border-color: #1976d2
+    background: #1e007f;
+    border-color: #1e007f
 }
 
 .el-element-overlay .el-card-item .el-overlay {
@@ -4942,7 +4947,7 @@ table.dataTable thead .sorting:after {
 }
 
 .timeline-badge.info {
-    background-color: #1976d2
+    background-color: #1e007f
 }
 
 .timeline-title {
@@ -4962,16 +4967,16 @@ table.dataTable thead .sorting:after {
 
 .cd-horizontal-timeline .events a {
     padding-bottom: 6px;
-    color: #1976d2
+    color: #1e007f
 }
 
 .cd-horizontal-timeline .events a.selected:after,
 .cd-horizontal-timeline .filling-line {
-    background: #1976d2
+    background: #1e007f
 }
 
 .cd-horizontal-timeline .events a.selected:after {
-    border-color: #1976d2
+    border-color: #1e007f
 }
 
 .myadmin-dd .dd-list .dd-item .dd-handle {
@@ -5155,8 +5160,8 @@ table.dataTable thead .sorting:after {
     height: 0;
     content: '';
     border: 30px solid transparent;
-    border-top-color: #1976d2;
-    border-left-color: #1976d2
+    border-top-color: #1e007f;
+    border-left-color: #1e007f
 }
 
 .ribbon-corner.ribbon-right:before {
@@ -5186,17 +5191,17 @@ table.dataTable thead .sorting:after {
 }
 
 .ribbon-custom {
-    background: #1976d2
+    background: #1e007f
 }
 
 .ribbon-bookmark.ribbon-right.ribbon-custom:before {
-    border-right-color: #1976d2;
+    border-right-color: #1e007f;
     border-left-color: transparent
 }
 
 .ribbon-bookmark.ribbon-vertical-l.ribbon-custom:before,
 .ribbon-bookmark.ribbon-vertical-r.ribbon-custom:before {
-    border-right-color: #1976d2;
+    border-right-color: #1e007f;
     border-bottom-color: transparent
 }
 
@@ -5271,38 +5276,38 @@ table.dataTable thead .sorting:after {
 }
 
 .ribbon-info {
-    background: #1976d2
+    background: #1e007f
 }
 
 .ribbon-bookmark.ribbon-info:before {
-    border-color: #1976d2;
+    border-color: #1e007f;
     border-right-color: transparent
 }
 
 .ribbon-bookmark.ribbon-right.ribbon-info:before {
-    border-right-color: #1976d2;
+    border-right-color: #1e007f;
     border-left-color: transparent
 }
 
 .ribbon-bookmark.ribbon-vertical-l.ribbon-info:before,
 .ribbon-bookmark.ribbon-vertical-r.ribbon-info:before {
-    border-right-color: #1976d2;
+    border-right-color: #1e007f;
     border-bottom-color: transparent
 }
 
 .ribbon-info.ribbon-corner:before {
-    border-top-color: #1976d2;
-    border-left-color: #1976d2
+    border-top-color: #1e007f;
+    border-left-color: #1e007f
 }
 
 .ribbon-info.ribbon-corner.ribbon-right:before {
-    border-right-color: #1976d2;
+    border-right-color: #1e007f;
     border-left-color: transparent
 }
 
 .ribbon-info.ribbon-corner.ribbon-bottom:before {
     border-top-color: transparent;
-    border-bottom-color: #1976d2
+    border-bottom-color: #1e007f
 }
 
 .ribbon-warning {
@@ -5411,8 +5416,8 @@ table.dataTable thead .sorting:after {
 }
 
 #idletimeout {
-    background: #1976d2;
-    border: 3px solid #1976d2;
+    background: #1e007f;
+    border: 3px solid #1e007f;
     color: #fff;
     font-family: arial, sans-serif;
     text-align: center;
@@ -5609,7 +5614,7 @@ table.dataTable thead .sorting:after {
     bottom: 100%;
     border-radius: 50%;
     text-align: center;
-    background: #1976d2;
+    background: #1e007f;
     color: #ffffff;
     opacity: 0;
     margin-bottom: 20px;
@@ -5788,7 +5793,7 @@ table.dataTable thead .sorting:after {
 }
 
 .tooltip-text3 {
-    border-bottom: 10px solid #1976d2;
+    border-bottom: 10px solid #1e007f;
     overflow: hidden;
     -webkit-transform: scale3d(0, 1, 1);
     transform: scale3d(0, 1, 1);
@@ -5821,7 +5826,7 @@ table.dataTable thead .sorting:after {
     position: absolute;
     pointer-events: none;
     border-color: transparent;
-    border-top-color: #1976d2;
+    border-top-color: #1e007f;
     border-width: 10px;
     margin-left: -10px
 }
@@ -5880,7 +5885,7 @@ table.dataTable thead .sorting:after {
 
 a.mytooltip {
     font-weight: 500;
-    color: #1976d2
+    color: #1e007f
 }
 
 .tooltip-effect-7 .tooltip-content2 {
@@ -6042,7 +6047,7 @@ a.mytooltip {
 }
 
 .search-listing li h3 a {
-    color: #1976d2
+    color: #1e007f
 }
 
 .search-listing li h3 a:hover {
@@ -6056,11 +6061,13 @@ a.mytooltip {
 .login-register {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    /* background-position: center center; */
     height: 100%;
     width: 100%;
     padding: 5% 0;
-    position: fixed
+    position: fixed;
+    display: flex;
+    align-items: center;
 }
 
 .login-box {
@@ -6089,9 +6096,11 @@ a.mytooltip {
 }
 
 .login-sidebar .login-box {
-    right: 0px;
+    eft: 0px;
     position: absolute;
-    height: 100%
+    height: 80%;
+    /* padding: 100px; */
+    margin: 0 100px;
 }
 
 .minimal-faq .card {
@@ -6211,10 +6220,10 @@ a.mytooltip {
 .chat-main-box .chat-left-aside .chat-left-inner .form-control {
     height: 60px;
     padding: 15px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#1976d2), to(#1976d2)), -webkit-gradient(linear, left top, left bottom, from(rgba(120, 130, 140, 0.13)), to(rgba(120, 130, 140, 0.13)));
-    background-image: -webkit-linear-gradient(#1976d2, #1976d2), -webkit-linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
-    background-image: -o-linear-gradient(#1976d2, #1976d2), -o-linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
-    background-image: linear-gradient(#1976d2, #1976d2), linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13))
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1e007f), to(#1e007f)), -webkit-gradient(linear, left top, left bottom, from(rgba(120, 130, 140, 0.13)), to(rgba(120, 130, 140, 0.13)));
+    background-image: -webkit-linear-gradient(#1e007f, #1e007f), -webkit-linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
+    background-image: -o-linear-gradient(#1e007f, #1e007f), -o-linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
+    background-image: linear-gradient(#1e007f, #1e007f), linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13))
 }
 
 .chat-main-box .chat-left-aside .chat-left-inner .style-none {
@@ -6290,7 +6299,7 @@ a.mytooltip {
 .inbox-panel .list-group .list-group-item.active,
 .inbox-panel .list-group .list-group-item:hover {
     background: #f2f4f8;
-    border-left: 3px solid #1976d2
+    border-left: 3px solid #1e007f
 }
 
 .inbox-center .unread td {
@@ -6385,7 +6394,7 @@ a.mytooltip {
 }
 
 .list-style-none li a:hover {
-    color: #1976d2
+    color: #1e007f
 }
 
 .list-style-none li a span {
@@ -6438,12 +6447,12 @@ a.mytooltip {
 
 .jsgrid-pager-nav-button a:hover,
 .jsgrid-pager-page a:hover {
-    background-color: #1976d2;
+    background-color: #1e007f;
     color: #ffffff
 }
 
 .jsgrid-pager-current-page {
-    background-color: #1976d2;
+    background-color: #1e007f;
     color: #ffffff
 }
 
@@ -6460,7 +6469,7 @@ a.mytooltip {
     position: absolute;
     width: 240px;
     height: 100%;
-    top: 0px;
+    top: 20px;
     z-index: 20;
     padding-top: 60px;
     background: #fff;
@@ -6508,7 +6517,7 @@ a.mytooltip {
 }
 
 .user-profile .profile-text>a:hover {
-    color: #1976d2
+    color: #1e007f
 }
 
 .user-profile .profile-text>a:after {
@@ -6576,12 +6585,12 @@ a.mytooltip {
 
 .sidebar-nav ul li a.active,
 .sidebar-nav ul li a:hover {
-    color: #1976d2
+    color: #1e007f
 }
 
 .sidebar-nav ul li a.active i,
 .sidebar-nav ul li a:hover i {
-    color: #1976d2
+    color: #1e007f
 }
 
 .sidebar-nav ul li a.active {
@@ -6644,13 +6653,13 @@ a.mytooltip {
 }
 
 .sidebar-nav>ul>li.active>a {
-    color: #1976d2;
+    color: #1e007f;
     font-weight: 500;
-    border-left: 3px solid #1976d2
+    border-left: 3px solid #1e007f
 }
 
 .sidebar-nav>ul>li.active>a i {
-    color: #1976d2
+    color: #1e007f
 }
 
 .sidebar-nav .has-arrow {
@@ -6742,7 +6751,7 @@ a.mytooltip {
     }
     .mini-sidebar .scroll-sidebar {
         padding-bottom: 0px;
-        position: absolute;
+        position: fixed;
         overflow-x: hidden!important
     }
     .mini-sidebar .hide-menu,
@@ -6929,7 +6938,7 @@ a.mytooltip {
 .city-weather-days li i {
     display: block;
     font-size: 20px;
-    color: #1976d2
+    color: #1e007f
 }
 
 .city-weather-days li h3 {
@@ -6984,7 +6993,7 @@ a.mytooltip {
 
 .comment-footer .action-icons a.active,
 .comment-footer .action-icons a:hover {
-    color: #1976d2
+    color: #1e007f
 }
 
 .todo-list li {
@@ -7348,7 +7357,7 @@ a.mytooltip {
     margin: 1px -1px 0 -1px;
     padding: 5px 5px;
     text-align: center;
-    background: #1976d2
+    background: #1e007f
 }
 
 .calendar-event {
@@ -7359,7 +7368,7 @@ a.mytooltip {
     color: #ffffff;
     min-width: 140px;
     text-align: center;
-    background: #1976d2
+    background: #1e007f
 }
 
 .calendar-event a {
@@ -9885,7 +9894,7 @@ a.btn.btn-sm.btn-info.waves-effect.waves-light {border-radius: 0px;}
 }
 .sidebar-nav > ul > li.active > a {
     color: #ffffff;
-    border-color: #1976d2;
+    border-color: #1e007f;
 }
 .sidebar-nav ul li a.active, .sidebar-nav ul li a:hover {
     color: #ffffff!important;
@@ -9952,7 +9961,10 @@ ul.collapse.in {
 }
 /* Admin Panel */
 .card-body.loginpage {
-    padding: 50% 1.25em;
+    /* padding: 50% 1.25em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 button.btn.btn-info.btn-lg.btn-logino {
     padding: .75rem 1.5rem;
@@ -10126,7 +10138,7 @@ button.btn.btn-info.btn-lg.btn-logino {
 
 .card-outline-info .card-header {
    background-color: inherit!important;
-    border-color: #1976d2;
+    border-color: #1e007f;
     position: relative;
 }
 .card-outline-info .card-header > h4{

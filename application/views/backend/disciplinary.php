@@ -45,7 +45,7 @@
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
-                                        <tfoot>
+                                        <!-- <tfoot>
                                             <tr>
                                                 <th>Employee Name</th>
                                                 <th>PIN</th>
@@ -54,7 +54,7 @@
                                                 <th>Status</th>
                                                 <th>Action</th>
                                             </tr>
-                                        </tfoot>
+                                        </tfoot> -->
                                         <tbody>
                                            <?php foreach($desciplinary as $value): ?>
                                             <tr>

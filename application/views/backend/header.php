@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-date_default_timezone_set('Asia/Dhaka');
+date_default_timezone_set('Africa/Lagos');
 ?>
 <head>
     <meta charset="utf-8">
@@ -12,7 +12,7 @@ date_default_timezone_set('Asia/Dhaka');
     <meta name="author" content="GenIT Bangladesh">
     <!-- Favicon icon -->
     <?php $settingsvalue = $this->settings_model->GetSettingsValue(); ?>
-    <link rel="icon" type="image/ico" sizes="16x16" href="<?php echo base_url(); ?>assets/images/<?php echo $settingsvalue->sitelogo;?>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url(); ?>assets/images/favicon1.png">
     <title><?php echo $settingsvalue->sitetitle; ?></title>
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url(); ?>assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -59,11 +59,14 @@ date_default_timezone_set('Asia/Dhaka');
         <header class="topbar">
             <nav class="navbar top-navbar navbar-expand-md navbar-light">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="<?php echo base_url(); ?>">
-						<b>
-                        <img src="<?php echo base_url();?>assets/images/<?php echo $settingsvalue->sitelogo; ?>" alt="DRI" class="DRI-logo" class="mt-3" height="80px" width="100px"/>
+				<a class="navbar-brand" href="<?php echo base_url(); ?>"><b>
+                        <img src="<?php echo base_url();?>assets/images/Parrot-HR-copy.png" alt="DRI" class="DRI-logo" style="width:50px;"/>
                         </b>
-                         </a>
+                        <!-- Logo text --><span>
+						<img src="<?php echo base_url(); ?>assets/images/<?php echo $settingsvalue->sitelogo; ?>" alt="DRI" class="DRI-logo" style="margin-top: 2rem; width: 100%;"/>
+                         <!-- Light Logo text -->    
+                         </span> </a>
+				
                 </div>
                 <div class="navbar-collapse">
                     <ul class="navbar-nav mr-auto mt-md-0">
@@ -72,7 +75,7 @@ date_default_timezone_set('Asia/Dhaka');
                         <li class="nav-item m-l-10"> <a class="nav-link sidebartoggler hidden-sm-down text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-muted text-muted waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-message"></i>
-                                <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                                <!-- <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div> -->
                             </a>
                             <div class="dropdown-menu mailbox scale-up-left">
                                 <ul>

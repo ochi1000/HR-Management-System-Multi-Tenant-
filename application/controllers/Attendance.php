@@ -266,16 +266,17 @@ class Attendance extends CI_Controller
                 'status' => 'A',
                 'place' => 'office'
             ); 
-                    //echo count($data); 
-        $this->attendance_model->Add_AttendanceData($data);          
-        }
-        }
-            else {
+                    // echo count($data); exit;
+			$this->attendance_model->Add_AttendanceData($data);          
+			}
+			}
+			else {
 
-            }
-        }
-         echo "successfully Updated"; 
-        }
+			}
+		}
+		// echo count($data); exit;
+		echo "successfully Updated"; 
+	}
 
 }
 ?>

@@ -80,7 +80,7 @@
                                         <th>Place</th>
                                       </tr>
                                     </thead>
-                                    <tfoot>
+                                    <!-- <tfoot>
                                     <tr>
                                         <th>PIN </th>
                                         <th>Name</th>
@@ -90,7 +90,7 @@
                                         <th>Hour</th>
                                         <th>Place</th>
                                     </tr>
-                                    </tfoot>
+                                    </tfoot> -->
                                     <tbody class="leave">
                                     
                                     </tbody>

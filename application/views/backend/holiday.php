@@ -95,7 +95,7 @@ https://www.patchesoft.com/fullcalendar-with-php-and-codeigniter/
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
-                                        <tfoot>
+                                        <!-- <tfoot>
                                             <tr>
                                                 <th>Name</th>
                                                 <th>Start Date </th>
@@ -104,7 +104,7 @@ https://www.patchesoft.com/fullcalendar-with-php-and-codeigniter/
                                                 <th>Year</th>
                                                 <th>Action</th>
                                             </tr>
-                                        </tfoot>
+                                        </tfoot> -->
                                         <tbody>
                                            <?php foreach($holidays as $value): ?>
                                             <tr>

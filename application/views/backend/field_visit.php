@@ -55,7 +55,7 @@
                         <th>Action</th>
                      </tr>
                   </thead>
-                  <tfoot>
+                  <!-- <tfoot>
                      <tr>
                         <th>ID</th>
                         <th>Project Name</th>
@@ -69,7 +69,7 @@
                         <th>Status</th>
                         <th>Action</th>
                      </tr>
-                  </tfoot>
+                  </tfoot> -->
                   <tbody>
                      <?php foreach($application as $value): ?>
                      <tr style="vertical-align:top">

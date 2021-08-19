@@ -45,10 +45,10 @@
                                                 <th>Action </th>
                                             </tr>
                                         </thead>
-                                        <tfoot>
+                                        <!-- <tfoot>
                                             <tr>
-<!--                                                <th>ID</th>
-                                                <th>Type </th>-->
+												<th>ID</th>
+                                                <th>Type </th>
                                                 <th>category</th>
                                                 <th>Name </th>
                                                 <th>Brand </th>
@@ -58,7 +58,7 @@
                                                 <th>InStock </th>
                                                 <th>Action </th>
                                             </tr>
-                                        </tfoot>
+                                        </tfoot> -->
                                         <tbody>
                                            <?php foreach($assets as $value): ?>
                                             <tr>
