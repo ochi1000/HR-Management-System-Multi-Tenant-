@@ -6065,7 +6065,13 @@ a.mytooltip {
     height: 100%;
     width: 100%;
     padding: 5% 0;
-    position: fixed
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+input:-internal-autofill-selected{
+	background-color: none !important;
 }
 
 .login-box {
@@ -6094,12 +6100,13 @@ a.mytooltip {
 }
 
 .login-sidebar .login-box {
-    left: 0px;
+    /* left: 0px; */
     position: absolute;
     height: 80%;
     /* padding: 100px; */
-    margin-left: 400px;
-	width: 500px;
+    margin: 0px 100px;
+	/* width: 500px; */
+    
 }
 
 .minimal-faq .card {
@@ -8269,7 +8276,9 @@ a.mytooltip {
     }
     .login-register {
         position: relative;
-        overflow: hidden
+        overflow: hidden;
+        display: flex;
+        align-items: center;
     }
     .login-box {
         width: 90%

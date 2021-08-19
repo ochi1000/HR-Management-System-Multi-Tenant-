@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon1.png">
-    <title>Hr payroll</title>
+    <title>Parrot HR</title>
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url(); ?>assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -37,7 +37,7 @@
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
 
-    <section id="wrapper" class="login-register login-sidebar" style="background-image:url(<?php echo base_url(); ?>assets/images/background/Artboard_3_copy.png	);">
+    <section id="wrapper" class="login-register login-sidebar" style="background-image:url(<?php echo base_url(); ?>assets/images/background/Artboard_3.png	);">
          
         <div class="login-box card">
             <div class="card-body loginpage">
@@ -49,7 +49,7 @@
 							}
 							?>                                   
                 <form class="form-horizontal form-material" method="post" id="loginform" action="login/Login_Auth">
-                    <a href="javascript:void(0)" class="text-center db"><br/><img src="<?php echo base_url(); ?>assets/images/Artboard-1-copy.png" height="125px" width="210px" alt="Home" /></a>
+                    <a href="javascript:void(0)" class="text-center db"><br/><img src="<?php echo base_url(); ?>assets/images/Artboard-1.png" height="125px" width="210px" alt="Home" /></a>
                     <div class="form-group m-t-40">
                         <div class="col-xs-12">
                             <input class="form-control" name="email" value="<?php if(isset($_COOKIE['email'])) { echo $_COOKIE['email']; } ?>" type="text" required placeholder="Email">
