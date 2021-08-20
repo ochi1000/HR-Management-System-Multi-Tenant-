@@ -1074,7 +1074,6 @@ $obj_merged = (object) array_merge((array) $employee_info, (array) $salaryvalueb
                                 data-id='$employee->em_id' 
                                 data-month='$month' 
                                 data-year='$year' 
-                                data-has_loan='$has_loan' 
                                 class='btn btn-sm btn-info waves-effect waves-light salaryGenerateModal' 
                                 data-toggle='modal'
                                 data-target='#salaryGenerateModal'>
@@ -1085,11 +1084,11 @@ $obj_merged = (object) array_merge((array) $employee_info, (array) $salaryvalueb
         // Sending 
         $data = array();
         $data['basic_salary'] = $employee_salary;
-        $data['total_work_hours'] = $total_work_hours;
-        $data['employee_actually_worked'] = $employee_actually_worked[0]->Hours;
-        $data['addition'] = $addition;
-        $data['diduction'] = $diduction;
-        $data['loan'] = $loan_amount;
+        // $data['total_work_hours'] = $total_work_hours;
+        // $data['employee_actually_worked'] = $employee_actually_worked[0]->Hours;
+        // $data['addition'] = $addition;
+        // $data['diduction'] = $diduction;
+        // $data['loan'] = $loan_amount;
         echo json_encode($data);
         }
         else{

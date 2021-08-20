@@ -97,7 +97,7 @@
                                     <div class="modal-body">
                                              <div class="form-group row">
                                                 <label class="control-label col-md-3">Project List</label>
-                                                <select class="form-control custom-select col-md-8 proid" data-placeholder="Choose a Category" tabindex="1" name="projectid">
+                                                <select class="form-control custom-select col-md-8 proid" data-placeholder="Select a Project" tabindex="1" name="projectid">
                                                    <?php foreach($projects as $value): ?>
                                                     <option value="<?php echo $value->id; ?>"><?php echo $value->pro_name; ?></option>
                                                    <?php endforeach; ?>
@@ -110,14 +110,14 @@
                                             </div>                                              
                                              <div class="form-group row">
                                                 <label class="control-label col-md-3">Assign To</label>
-                                                <select class="select2 form-control custom-select col-md-3" data-placeholder="Choose a Category" style="width:25%" tabindex="1" name="teamhead">
+                                                <select class="select2 form-control custom-select col-md-3" data-placeholder="Select an Employee" style="width:25%" tabindex="1" name="teamhead">
                                                   <option value="">Select Here</option>
                                                    <?php foreach($employee as $value): ?>
                                                     <option value="<?php echo $value->em_id; ?>"><?php echo $value->first_name.' '.$value->last_name; ?></option>
                                                     <?php endforeach; ?>
                                                 </select>
                                                 <label class="control-label col-md-2">Collaborators</label>
-                                                <select class="select2 form-control select2-multiple col-md-3" data-placeholder="Choose a Category" multiple="multiple" style="width:25%" tabindex="1" name="assignto[]">
+                                                <select class="select2 form-control select2-multiple col-md-3" data-placeholder="Select Collaborators" multiple="multiple" style="width:25%" tabindex="1" name="assignto[]">
                                                   <option value="">Select Here</option>
                                                    <?php foreach($employee as $value): ?>
                                                     <option value="<?php echo $value->em_id; ?>"><?php echo $value->first_name.' '.$value->last_name; ?></option>

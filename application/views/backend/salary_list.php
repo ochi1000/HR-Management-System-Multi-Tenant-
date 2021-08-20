@@ -48,7 +48,7 @@
                                                 <th class="jsgrid-align-center">Action</th>
                                             </tr>
                                         </thead>
-                                        <tfoot>
+                                        <!-- <tfoot>
                                             <tr>
                                                 <th class="hide">SL </th>
                                                 <th>PIN </th>
@@ -57,14 +57,14 @@
                                                 <th>Salary </th>
                                                 <th>Loan </th>
                                                 <th>Total hours </th>
-                                                <!--<th>Earning</th>-->
+                                                <th>Earning</th>
                                                 <th>Deduction</th>
                                                 <th>Total Paid</th>
                                                 <th>Pay Date</th>
                                                 <th>Status</th>
                                                 <th class="jsgrid-align-center">Action</th>
                                             </tr>
-                                        </tfoot>
+                                        </tfoot> -->
                                         <tbody>
 
                                            <?php $i =0; foreach($salary_info as $individual_info): ?>
@@ -361,6 +361,8 @@ var y = d.getFullYear();
 } );
 </script>
 <?php $this->load->view('backend/footer'); ?>
+<?php if($this->session->userdata('user_type') == "ADMIN"): ?>	
+
 <script>
     $('#salary123').DataTable({
         "aaSorting": [[10,'desc']],
@@ -370,3 +372,4 @@ var y = d.getFullYear();
         ]
     });   
 </script>
+<?php endif; ?>

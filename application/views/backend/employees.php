@@ -100,12 +100,15 @@
 					/.modal-dialog
 				</div> -->
 <?php $this->load->view('backend/footer'); ?>
-<script>
-    $('#employees123').DataTable({
-        "aaSorting": [[1,'asc']],
-        dom: 'Bfrtip',
-        buttons: [
-            'copy', 'csv', 'excel', 'pdf', 'print'
-        ]
-    });
-</script>
+
+<?php if($this->session->userdata('user_type') == "ADMIN"): ?>	
+	<script>
+		$('#employees123').DataTable({
+			"aaSorting": [[1,'asc']],
+			dom: 'Bfrtip',
+			buttons: [
+				'copy', 'csv', 'excel', 'pdf', 'print'
+			]
+		});
+	</script>
+<?php endif; ?>

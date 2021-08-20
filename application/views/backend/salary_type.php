@@ -38,14 +38,14 @@
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
-                                        <tfoot>
+                                        <!-- <tfoot>
                                             <tr>
                                                 <th>ID </th>
                                                 <th>Salary Type</th>
                                                 <th>Create Date </th>
                                                 <th>Action</th>
                                             </tr>
-                                        </tfoot>
+                                        </tfoot> -->
                                         <tbody>
                                            <?php foreach($typevalue as $value): ?>
                                             <tr>

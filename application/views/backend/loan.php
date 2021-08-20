@@ -4,12 +4,12 @@
             <div class="message"></div>  
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h3 class="text-themecolor"><i class="fa fa-hourglass-1" aria-hidden="true"></i> Grand Loan</h3>
+                    <h3 class="text-themecolor"><i class="fa fa-hourglass-1" aria-hidden="true"></i> Grant Loan</h3>
                 </div>
                 <div class="col-md-7 align-self-center">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                        <li class="breadcrumb-item active">Grand Loan</li>
+                        <li class="breadcrumb-item active">Grant Loan</li>
                     </ol>
                 </div>
             </div>
@@ -194,6 +194,8 @@
 </script>                            
                       
 <?php $this->load->view('backend/footer'); ?>
+<?php if($this->session->userdata('user_type') == "ADMIN"): ?>	
+
   <script>
     $('#loan123').DataTable({
         "aaSorting": [[6,'desc']],
@@ -203,3 +205,4 @@
         ]
     });
 </script> 
+<?php endif; ?>

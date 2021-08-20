@@ -105,7 +105,7 @@ $this->load->view('backend/sidebar');
                     </th>
                   </tr>
                 </thead>
-                <tfoot>
+                <!-- <tfoot>
                   <tr>
                     <th>PIN 
                     </th>
@@ -116,7 +116,7 @@ $this->load->view('backend/sidebar');
                     <th>Action
                     </th>
                   </tr>
-                </tfoot>
+                </tfoot> -->
                 <tbody class="payroll">
                 </tbody>
               </table>

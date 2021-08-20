@@ -82,20 +82,20 @@
                                 <li><a href="<?php echo base_url(); ?>Projects/Field_visit"> Field Visit</a></li>
                             </ul>
                         </li>
-                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-rocket"></i><span class="hide-menu">Loan </span></a>
+                        <!-- <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-rocket"></i><span class="hide-menu">Loan </span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="<?php echo base_url(); ?>Loan/View"> Grand Loan </a></li>
-                                <li><a href="<?php echo base_url(); ?>Loan/installment"> Loan Installment</a></li>
+                                <li><a href="<?php //echo base_url(); ?>Loan/View"> Grant Loan </a></li>
+                                <li><a href="<?php //echo base_url(); ?>Loan/installment"> Loan Installment</a></li>
                             </ul>
-                        </li>
-                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-rocket"></i><span class="hide-menu">Assets </span></a>
+                        </li> -->
+                        <!-- <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-rocket"></i><span class="hide-menu">Assets </span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="<?php echo base_url(); ?>Logistice/Assets_Category"> Assets Category </a></li>
-                                <li><a href="<?php echo base_url(); ?>Logistice/All_Assets"> Asset List </a></li>
-                                <!--<li><a href="<?php #echo base_url(); ?>Logistice/View"> Logistic Support List </a></li>-->
-                                <li><a href="<?php echo base_url(); ?>Logistice/logistic_support"> Logistic Support </a></li>
+                                <li><a href="<?php //echo base_url(); ?>Logistice/Assets_Category"> Assets Category </a></li>
+                                <li><a href="<?php //echo base_url(); ?>Logistice/All_Assets"> Asset List </a></li>
+                                <li><a href="<?php #echo base_url(); ?>Logistice/View"> Logistic Support List </a></li>
+                                <li><a href="<?php //echo base_url(); ?>Logistice/logistic_support"> Logistic Support </a></li>
                             </ul>
-                        </li>
+                        </li> -->
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-newspaper"></i><span class="hide-menu">Payroll </span></a>
                             <ul aria-expanded="false" class="collapse">
                                 <!--<li><a href="<?php #echo base_url(); ?>Payroll/Salary_Type"> Payroll Type </a></li>-->

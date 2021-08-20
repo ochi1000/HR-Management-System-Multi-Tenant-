@@ -195,6 +195,8 @@
                                         });
 </script>                           
 <?php $this->load->view('backend/footer'); ?>
+<?php if($this->session->userdata('user_type') == "ADMIN"): ?>	
+
   <script>
     $('#loan123').DataTable({
         "aaSorting": [[4,'desc']],
@@ -204,3 +206,4 @@
         ]
     });
 </script>
+<?php endif; ?>

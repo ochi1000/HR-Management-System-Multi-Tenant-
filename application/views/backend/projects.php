@@ -53,7 +53,7 @@
                                                 <th>Action </th>
                                             </tr>
                                         </thead>
-                                        <tfoot>
+                                        <!-- <tfoot>
                                             <tr>
                                                 <th>Project Title</th>
                                                 <th>Status </th>
@@ -61,7 +61,7 @@
                                                 <th>End Date </th>
                                                 <th>Action </th>
                                             </tr>
-                                        </tfoot>
+                                        </tfoot> -->
                                         <tbody>
                                            <?php foreach($projects as $value): ?>
                                             <tr>
@@ -71,7 +71,7 @@
                                                 <td><?php echo date('jS \of F Y',strtotime($value->pro_end_date)) ?></td>
                                                 <td class="jsgrid-align-center ">
                                                     <a href="view?P=<?php echo base64_encode($value->id); ?>" title="Edit" class="btn btn-sm btn-info waves-effect waves-light"><i class="fa fa-pencil-square-o"></i></a>
-                                                    <a href="pDelet?D=<?php echo base64_encode($value->id); ?>" title="Delete" onclick="alert('Are Yoy Want To Delet This Project!!!')" class="btn btn-sm btn-info waves-effect waves-light projectdelet"><i class="fa fa-trash-o"></i></a>
+                                                    <a href="pDelet?D=<?php echo base64_encode($value->id); ?>" title="Delete" onclick="alert('Are you sure you want to delete this project')" class="btn btn-sm btn-info waves-effect waves-light projectdelet"><i class="fa fa-trash-o"></i></a>
                                                 </td>
                                             </tr>
                                             <?php endforeach; ?>
@@ -100,14 +100,14 @@
                                             </div>
                                             <div class="form-group">
                                                 <label class="control-label">Project Start Date</label>
-                                                <input type="text" name="startdate" class="form-control datepicker" id="recipient-name1" placeholder="">
+                                                <input type="date" name="startdate" class="form-control datepicker" id="recipient-name1" placeholder="">
                                             </div>
                                             <div class="form-group">
                                                 <label class="control-label">Project End Date</label>
-                                                <input type="text" name="enddate" class="form-control datepicker" id="recipient-name1" required placeholder="">
+                                                <input type="date" name="enddate" class="form-control datepicker" id="recipient-name1" required placeholder="">
                                             </div>
                                             <div class="form-group">
-                                                <label for="message-text" class="control-label">Summery</label>
+                                                <label for="message-text" class="control-label">Summary</label>
                                                 <textarea class="form-control" name="summery" id="message-text1" placeholder=""></textarea>
                                             </div>
                                             </div>

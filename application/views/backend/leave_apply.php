@@ -122,13 +122,13 @@
                                     <?php endforeach; ?>
                                 </select>
                             </div>
-                            <div class="form-group">
+                            <!-- <div class="form-group">
                                 <span style="color:red" id="total"></span>
                                 <div class="span pull-right">
                                     <button class="btn btn-info fetchLeaveTotal">Fetch Total Leave</button>
                                 </div>
                                 <br>
-                            </div>
+                            </div> -->
                             <div class="form-group">
                                 <label class="control-label">Leave Duration</label><br>
                                 <input name="type" type="radio" id="radio_1" data-value="Half" class="duration" value="Half Day" checked="">

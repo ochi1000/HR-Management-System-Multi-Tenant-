@@ -105,12 +105,17 @@
 					<!-- /.modal-dialog -->
 				</div>                             
 <?php $this->load->view('backend/footer'); ?>
-<script>
-    $('#attendance123').DataTable({
-        "aaSorting": [[2,'desc']],
-        dom: 'Bfrtip',
-        buttons: [
-            'copy', 'csv', 'excel', 'pdf', 'print'
-        ]
-    });
-</script>
+
+<?php if($this->session->userdata('user_type') == "ADMIN"): ?>	
+	<script>
+		$('#attendance123').DataTable({
+			"aaSorting": [[2,'desc']],
+			dom: 'Bfrtip',
+			buttons: [
+				'copy', 'csv', 'excel', 'pdf', 'print'
+			]
+		});
+	</script>
+<?php endif; ?>
+
+
