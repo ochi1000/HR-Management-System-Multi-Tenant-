@@ -679,11 +679,11 @@
 			                                        <input type="text" name="houserent" <?php if($this->session->userdata('user_type')=='EMPLOYEE'){ ?> readonly <?php } ?> class="form-control form-control-line houserent" placeholder="medical..." value="<?php if(!empty($salaryvalue->house_rent)) echo $salaryvalue->house_rent ?>" > 
 			                                    </div> 
 			                                    <div class="form-group col-md-6 m-t-5">
-			                                        <label>Medical</label>
+			                                        <label>Feeding</label>
 			                                        <input type="text" name="medical" <?php if($this->session->userdata('user_type')=='EMPLOYEE'){ ?> readonly <?php } ?> class="form-control form-control-line medical" placeholder="medical..." value="<?php if(!empty($salaryvalue->medical)) echo $salaryvalue->medical ?>" > 
 			                                    </div> 
 			                                    <div class="form-group col-md-6 m-t-5">
-			                                        <label>Conveyance</label>
+			                                        <label>Transport</label>
 			                                        <input type="text" name="conveyance" <?php if($this->session->userdata('user_type')=='EMPLOYEE'){ ?> readonly <?php } ?> class="form-control form-control-line conveyance" placeholder="conveyance..." value="<?php if(!empty($salaryvalue->conveyance)) echo $salaryvalue->conveyance ?>" > 
 			                                    </div>
                                                 </div>
