@@ -110,7 +110,7 @@
                                         </select>
                                     </div>
                                     <div class="form-group col-md-3 m-t-20">
-                                        <label>NID</label>
+                                        <label>NIN</label>
                                         <input type="text" name="nid" class="form-control" value="" placeholder="" minlength="10" required> 
                                     </div>
                                     <div class="form-group col-md-3 m-t-20">
@@ -118,15 +118,15 @@
                                         <input type="text" name="contact" class="form-control" value="" placeholder="+8801231456" minlength="10" maxlength="15" required> 
                                     </div>
                                     <div class="form-group col-md-3 m-t-20">
-                                        <label>Date Of Birth </label>
+                                        <label>Date of Birth </label>
                                         <input type="date" name="dob" id="example-email2" name="example-email" class="form-control" placeholder="" required> 
                                     </div>
                                     <div class="form-group col-md-3 m-t-20">
-                                        <label>Date Of Joining </label>
+                                        <label>Date of Joining </label>
                                         <input type="date" name="joindate" id="example-email2" name="example-email" class="form-control" placeholder=""> 
                                     </div>
                                     <div class="form-group col-md-3 m-t-20">
-                                        <label>Date Of Leaving </label>
+                                        <label>Date of Leaving </label>
                                         <input type="date" name="leavedate" id="example-email2" name="example-email" class="form-control" placeholder=""> 
                                     </div>
                                     <div class="form-group col-md-3 m-t-20">
@@ -146,7 +146,7 @@
                                         <input type="text" name="confirm" class="form-control" value="" placeholder="**********"> 
                                     </div>-->
                                     <div class="form-group col-md-3 m-t-20">
-                                        <label>Image </label>
+                                        <label>Image  max: 500px X 500px, ensure equal dimensions</label>
                                         <input type="file" name="image_url" class="form-control" value=""> 
                                     </div>
                                     <div class="form-actions col-md-12">

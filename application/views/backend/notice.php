@@ -72,7 +72,7 @@
                                     <div class="modal-body">
                                             <div class="form-group">
                                                 <label for="message-text" class="control-label">Notice Title</label>
-                                                <textarea class="form-control" name="title" id="message-text1" required minlength="25" maxlength="150"></textarea>
+                                                <textarea class="form-control" name="title" id="message-text1" required minlength="5" maxlength="150"></textarea>
                                             </div>
                                             <div class="form-group">
                                                 <label class="control-label">Document</label>

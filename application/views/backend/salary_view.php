@@ -213,7 +213,7 @@ $this->load->view('backend/sidebar');
                 </div>
               </div>
               <div class="row well"> 
-              <div class="col-md-6">                                    
+              <!-- <div class="col-md-6">                                    
               <div class="form-group row">
                 <label class="control-label text-left col-md-5">Basic Salary
                 </label>
@@ -249,6 +249,13 @@ $this->load->view('backend/sidebar');
                 <div class="col-md-7">
                 <input type="text" name="addition" class="form-control" id="" value="">
               </div>
+              </div> -->
+							<div class="form-group row">
+                <label class="control-label text-left col-md-5">Salary
+                </label>
+                <div class="col-md-7">
+                   <input type="text" name="total_paid" class="form-control total_paid" id="" value="" required>
+                </div>
               </div>
               <div class="form-group row">
                 <label class="control-label text-left col-md-5">Pay Date
@@ -259,7 +266,7 @@ $this->load->view('backend/sidebar');
               </div>              
               </div>
               <div class="col-md-6">                                     
-              <div class="form-group row" id="diduction">
+              <!-- <div class="form-group row" id="diduction">
                 <label class="control-label text-left col-md-5">Diduction
                 </label>
                 <div class="col-md-7">
@@ -272,14 +279,8 @@ $this->load->view('backend/sidebar');
                 <div class="col-md-7">
                   <input type="text" name="loan" class="form-control loan" id="" value="">
                 </div>
-              </div>                                    
-              <div class="form-group row">
-                <label class="control-label text-left col-md-5">Final Salary
-                </label>
-                <div class="col-md-7">
-                   <input type="text" name="total_paid" class="form-control total_paid" id="" value="" required>
-                </div>
-              </div>
+              </div>                                     -->
+              
               <!--<div class="form-group row">
                 <label class="control-label text-left col-md-5">Status
                 </label>
@@ -299,8 +300,8 @@ $this->load->view('backend/sidebar');
                                     <div class="col-md-7">
                                     <input name="status" type="radio" id="radio_1" data-value="Paid" class="duration" value="Paid" checked="checked">
                                     <label for="radio_1">Paid</label>
-                                    <input name="status" type="radio" id="radio_2" data-value="Process" class="type" value="Process">
-                                    <label for="radio_2">Process</label>
+                                    <!-- <input name="status" type="radio" id="radio_2" data-value="Process" class="type" value="Process">
+                                    <label for="radio_2">Process</label> -->
                                     </div>
                                 </div>                            
               </div>              
