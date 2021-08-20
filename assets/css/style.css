@@ -6104,10 +6104,16 @@ input:-internal-autofill-selected{
     position: absolute;
     height: 80%;
     /* padding: 100px; */
-    margin: 0px 100px;
-	/* width: 500px; */
+    margin-left: 200px;
+	width: 400px;
     
 }
+@media (max-width: 576px){
+	.login-sidebar .login-box {
+		margin-left:auto;
+	}
+}
+
 
 .minimal-faq .card {
     border: 0px
