@@ -544,22 +544,23 @@ class Leave extends CI_Controller
                 //How much taken
                 $totalHour = $this->leave_model->getLeaveTypeTotal($employeeId, $type);
                 //If already taken some
-                if($determineIfNew  > 0) {
-                    $total    = $totalHour[0]->totalTaken + $duration;
-                    $data     = array();
-                    $data     = array(
-                        'hour' => $total
-                    );
-            $success  = $this->leave_model->updateLeaveAssignedInfo($employeeId, $type, $data);
-            $earnval = $this->leave_model->emEarnselectByLeave($employeeId); 
-              $data = array();
-              $data = array(
-                        'present_date' => $earnval->present_date - ($duration/8),
-                        'hour' => $earnval->hour - $duration
-                    );
-            $success = $this->leave_model->UpdteEarnValue($employeeId,$data);                     
-            echo "Updated successfully";
-                } else {
+            //     if($determineIfNew  > 0) {
+            //         $total    = $totalHour[0]->totalTaken + $duration;
+            //         $data     = array();
+            //         $data     = array(
+            //             'hour' => $total
+            //         );
+            // $success  = $this->leave_model->updateLeaveAssignedInfo($employeeId, $type, $data);
+            // $earnval = $this->leave_model->emEarnselectByLeave($employeeId); 
+            //   $data = array();
+            //   $data = array(
+            //             'present_date' => $earnval->present_date - ($duration/8),
+            //             'hour' => $earnval->hour - $duration
+            //         );
+            // $success = $this->leave_model->UpdteEarnValue($employeeId,$data);                     
+            // echo "Updated successfully";
+			// header("Refresh: 0");
+            //     } else {
                 //If not taken yet
                     $data     = array();
                     $data = array(
@@ -568,11 +569,12 @@ class Leave extends CI_Controller
                         'hour' => $duration,
                         'dateyear' => date('Y')
                     );
-                    $success  = $this->leave_model->insertLeaveAssignedInfo($data);
+                    $this->leave_model->insertLeaveAssignedInfo($data);
                     echo "Updated successfully";
-                }
+                // }
             } else {
                 echo "Updated successfully";
+				header("Refresh: 2");
             }
         }
     }

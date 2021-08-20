@@ -64,8 +64,8 @@
                                     <?php foreach($application as $value): ?>
                                     <tr style="vertical-align:top">
                                         <td><?php echo $value->id; ?></td>
-                                        <td><mark><?php echo $value->first_name.' '.$value->last_name ?></mark></td>
-                                        <td><?php echo $value->em_code; ?></td>
+                                        <td><?php echo $value->first_name.' '.$value->last_name ?></td>
+                                        <!-- <td><?php echo $value->em_code; ?></td> -->
                                         <td><?php echo $value->name; ?></td>
                                         <td><?php echo date('jS \of F Y',strtotime($value->apply_date)); ?></td>
                                         <td><?php echo $value->start_date; ?></td>
