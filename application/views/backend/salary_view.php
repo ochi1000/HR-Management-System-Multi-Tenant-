@@ -212,43 +212,43 @@ $this->load->view('backend/sidebar');
                 </select>
                 </div>
               </div>
-              <div class="row well"> 
-              <!-- <div class="col-md-6">                                    
-              <div class="form-group row">
-                <label class="control-label text-left col-md-5">Basic Salary
-                </label>
-                <div class="col-md-7">
-                <input type="text" name="basic" class="form-control" id="" value="">
-              </div> 
-              </div>                                     
-              <div class="form-group row">
-                <label class="control-label text-left col-md-5">Working hours
-                </label>
-                <div class="col-md-7">
-                    <input type="text" name="month_work_hours" class="form-control thour" value="" readonly>
-                </div>
-              </div>                                       
-              <div class="form-group row">
-                <label class="control-label text-left col-md-5">Hours worked
-                </label>
-                <div class="col-md-7">
-                <input type="text" name="hours_worked" class="form-control hours_worked" id="" value="">
-                <span>Work Without Pay:</span><span class="wpay"></span> <span>hrs</span>
-                </div>
-              </div>                                       
-              <div class="form-group row" style="display:none">
-                <label class="control-label text-left col-md-5">
-                </label>
-                <div class="col-md-7">
-                <input type="hidden" name="hrate" class="form-control hrate" id="hrate" value=''>
-                </div>
-              </div>                                    
-              <div class="form-group row" id="addition">
-                <label class="control-label text-left col-md-5">Addition
-                </label>
-                <div class="col-md-7">
-                <input type="text" name="addition" class="form-control" id="" value="">
-              </div>
+              <div class="form-group row"> 
+								<div class="col-md-6">                                    
+								<!-- <div class="form-group row">
+									<label class="control-label text-left col-md-5">Basic Salary
+									</label>
+									<div class="col-md-7">
+									<input type="text" name="basic" class="form-control" id="" value="">
+								</div> 
+								</div>                                     
+								<div class="form-group row">
+									<label class="control-label text-left col-md-5">Working hours
+									</label>
+									<div class="col-md-7">
+											<input type="text" name="month_work_hours" class="form-control thour" value="" readonly>
+									</div>
+								</div>                                       
+								<div class="form-group row">
+									<label class="control-label text-left col-md-5">Hours worked
+									</label>
+									<div class="col-md-7">
+									<input type="text" name="hours_worked" class="form-control hours_worked" id="" value="">
+									<span>Work Without Pay:</span><span class="wpay"></span> <span>hrs</span>
+									</div>
+								</div>                                       
+								<div class="form-group row" style="display:none">
+									<label class="control-label text-left col-md-5">
+									</label>
+									<div class="col-md-7">
+									<input type="hidden" name="hrate" class="form-control hrate" id="hrate" value=''>
+									</div>
+								</div>                                    
+								<div class="form-group row" id="addition">
+									<label class="control-label text-left col-md-5">Addition
+									</label>
+									<div class="col-md-7">
+									<input type="text" name="addition" class="form-control" id="" value="">
+								</div>
               </div> -->
 							<div class="form-group row">
                 <label class="control-label text-left col-md-5">Salary
@@ -281,29 +281,29 @@ $this->load->view('backend/sidebar');
                 </div>
               </div>                                     -->
               
-              <!--<div class="form-group row">
-                <label class="control-label text-left col-md-5">Status
-                </label>
-                <div class="col-md-7">
-                <select class="form-control custom-select" data-placeholder="Choose a Category" tabindex="1" name="status" required>
-                  <option value="#">Select Here
-                  </option>
-                  <option value="Paid">Paid
-                  </option>
-                  <option value="Process">Process
-                  </option>
-                </select>    
-              </div>     
-              </div>-->
-                                <div class="form-group row">
-                                    <label class="control-label text-left col-md-5">Status</label><br>
-                                    <div class="col-md-7">
-                                    <input name="status" type="radio" id="radio_1" data-value="Paid" class="duration" value="Paid" checked="checked">
-                                    <label for="radio_1">Paid</label>
-                                    <!-- <input name="status" type="radio" id="radio_2" data-value="Process" class="type" value="Process">
-                                    <label for="radio_2">Process</label> -->
-                                    </div>
-                                </div>                            
+							<!--<div class="form-group row">
+									<label class="control-label text-left col-md-5">Status
+									</label>
+									<div class="col-md-7">
+										<select class="form-control custom-select" data-placeholder="Choose a Category" tabindex="1" name="status" required>
+											<option value="#">Select Here
+											</option>
+											<option value="Paid">Paid
+											</option>
+											<option value="Process">Process
+											</option>
+										</select>    
+									</div>     
+							</div>-->
+							<div class="form-group row">
+									<label class="control-label text-left col-md-5">Status</label><br>
+									<div class="col-md-7">
+										<input name="status" type="radio" id="radio_1" data-value="Paid" class="duration" value="Paid" checked="checked">
+										<label for="radio_1">Paid</label>
+										<!-- <input name="status" type="radio" id="radio_2" data-value="Process" class="type" value="Process">
+										<label for="radio_2">Process</label> -->
+									</div>
+							</div>                            
               </div>              
               </div>   
               <!--<div class="form-group row" style="margin-top: 25px;">
@@ -320,16 +320,17 @@ $this->load->view('backend/sidebar');
                 </select>
                 </div>                 
               </div>-->
-                                <div class="form-group row" style="margin-top: 25px;">
-                                    <label class="control-label text-left col-md-3">Paid Type</label><br>
-                                    <div class="col-md-9">
-                                    <input name="paid_type" type="radio" id="radio_3" data-value="Hand Cash" class="" value="Hand Cash" checked="checked">
-                                    <label for="radio_3" style="margin-left: 30px">Hand Cash</label>
-                                    <input name="paid_type" type="radio" id="radio_4" data-value="Bank" class="type" value="Bank">
-                                    <label for="radio_4" style="margin-left: 130px">Bank</label>
-                                    </div>
-                                </div>                             
+							<div class="form-group row" style="margin-top: 25px;">
+									<label class="control-label text-left col-md-3">Paid Type</label><br>
+									<div class="col-md-9">
+									<input name="paid_type" type="radio" id="radio_3" data-value="Hand Cash" class="" value="Hand Cash" checked="checked">
+									<label for="radio_3" style="margin-left: 30px">Hand Cash</label>
+									<input name="paid_type" type="radio" id="radio_4" data-value="Bank" class="type" value="Bank">
+									<label for="radio_4" style="margin-left: 130px">Bank</label>
+									</div>
+							</div>                             
             </div>
+
             <div class="modal-footer">
               <input type="hidden" name="action" value="add" class="form-control" id="formAction">              
               <input type="hidden" name="loan_id" value="" class="form-control" id="loanID">                                      
@@ -338,6 +339,7 @@ $this->load->view('backend/sidebar');
               <button type="submit" class="btn btn-primary">Submit
               </button>
             </div>
+
           </form>
         </div>
       </div>
