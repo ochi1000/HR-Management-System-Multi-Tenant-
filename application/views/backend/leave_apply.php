@@ -37,7 +37,7 @@
                                 <thead>
                                     <tr>
                                         <th>Employee Name</th>
-                                        <th>PIN</th>
+                                        <th>Staff ID</th>
                                         <th>Leave Type</th>
                                         <th>Apply Date</th>
                                         <th>start Date</th>
@@ -47,19 +47,19 @@
                                         <th>Action</th>
                                     </tr>
                                 </thead>
-                                <tfoot>
-                                <tr>
-                                    <th>Employee Name</th>
-                                    <th>PIN</th>
-                                    <th>Leave Type</th>
-                                    <th>Apply Date</th>
-                                    <th>start Date</th>
-                                    <th>End Date</th>
-                                    <th>Leave Duration</th>
-                                    <th>Leave Status</th>
-                                    <th>Action</th>
-                                </tr>
-                                </tfoot>
+                                <!-- <tfoot>
+									<tr>
+										<th>Employee Name</th>
+										<th>PIN</th>
+										<th>Leave Type</th>
+										<th>Apply Date</th>
+										<th>start Date</th>
+										<th>End Date</th>
+										<th>Leave Duration</th>
+										<th>Leave Status</th>
+										<th>Action</th>
+									</tr>
+                                </tfoot> -->
                                 <tbody>
                                     <?php foreach($application as $value): ?>
                                     <tr style="vertical-align:top">

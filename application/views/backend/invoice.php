@@ -62,7 +62,7 @@
                                     </div> -->
                                     <table class="table table-condensed borderless payslip_info">
                                         <tr>
-                                            <td>Employee PIN</td>
+                                            <td>Staff ID</td>
                                             <td>: <?php echo $obj_merged->em_code; ?></td>
                                             <td>Employee Name</td>
                                             <td>: <?php echo $obj_merged->first_name; ?> <?php  echo $obj_merged->last_name; ?></td>

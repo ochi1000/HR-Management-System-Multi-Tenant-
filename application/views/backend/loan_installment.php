@@ -32,7 +32,7 @@
                                     <table id="loan123" class="display nowrap table table-hover table-striped table-bordered" cellspacing="0" width="100%">
                                         <thead>
                                             <tr>
-                                                <th>Employee PIN</th>
+                                                <th>Staff ID</th>
                                                 <th>Loan Id</th>
                                                 <th>Loan Number </th>
                                                 <th>Install Amount </th>
@@ -45,7 +45,7 @@
                                         </thead>
                                         <tfoot>
                                             <tr>
-                                                <th>Employee PIN</th>
+                                                <th>Staff ID</th>
                                                 <th>Loan Id</th>
                                                 <th>Loan Number </th>
                                                 <th>Install Amount </th>

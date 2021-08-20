@@ -111,7 +111,7 @@ https://www.patchesoft.com/fullcalendar-with-php-and-codeigniter/
                                                 <td><?php echo $value->holiday_name ?></td>
                                                 <td><?php echo date('jS \of F Y',strtotime($value->from_date)); ?></td>
                                                 <td><?php if(!empty($value->to_date)){ echo date('jS \of F Y',strtotime($value->to_date)); } ?></td>
-                                                <td><?php echo $value->number_of_days; ?></td>
+                                                <td><?php echo $value->number_of_days + 1; ?></td>
                                                 <td><?php echo $value->year; ?></td>
                                                 <td class="jsgrid-align-center ">
                                                     <a href="" title="Edit" <?php if($this->session->userdata('user_type')=='EMPLOYEE'){ ?> hidden <?php } ?> class="btn btn-sm btn-info waves-effect waves-light holiday" data-id="<?php echo $value->id; ?>"><i class="fa fa-pencil-square-o"></i></a>

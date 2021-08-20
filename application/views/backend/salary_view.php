@@ -95,7 +95,7 @@ $this->load->view('backend/sidebar');
               <table id="example23" class="display nowrap table table-hover table-striped table-bordered" cellspacing="0" width="100%">
                 <thead>
                   <tr>
-                    <th>PIN 
+                    <th>Staff ID 
                     </th>
                     <th>Full name
                     </th>

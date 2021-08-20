@@ -45,7 +45,7 @@
                         <th>ID</th>
                         <th>Project Name</th>
                         <th>Location</th>
-                        <th>Employee PIN</th>
+                        <th>Staff ID</th>
                         <th>Employee Name</th>
                         <th>start Date</th>
                         <th>Approx. End Date</th>

@@ -37,7 +37,7 @@
                                 <thead>
                                     <tr>
                                         <th>Employee Name</th>
-                                        <th>PIN</th>
+                                        <th>Staff ID</th>
                                         <th>Leave Type</th>
                                         <th>Apply Date</th>
                                         <th>Start Date</th>

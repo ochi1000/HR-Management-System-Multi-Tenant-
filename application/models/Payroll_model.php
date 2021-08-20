@@ -256,6 +256,7 @@ public function getPinFromID($employeeID){
 
     public function insertPaidSalaryData($data){
         $result = $this->db->insert('pay_salary',$data);
+				// echo $this->db->last_query();
         return $result;
     }
 

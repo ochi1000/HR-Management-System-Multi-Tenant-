@@ -881,7 +881,8 @@ $obj_merged = (object) array_merge((array) $employee_info, (array) $salaryvalueb
         if($this->session->userdata('user_login_access') != False) {
 			$emid = $this->input->post('emid');
 			$month = $this->month_number_to_name($this->input->post('month'));
-			$basic = $this->input->post('basic');
+			// $basic = $this->input->post('basic');
+			$basic = $this->input->post('total_paid');
 			$year = $this->input->post('year');
 			$hours_worked = $this->input->post('hours_worked');
 			$addition = $this->input->post('addition');
@@ -893,19 +894,15 @@ $obj_merged = (object) array_merge((array) $employee_info, (array) $salaryvalueb
 			$status = $this->input->post('status');
 			$paid_type = $this->input->post('paid_type');
 			
-			$this->load->library('form_validation');
-			$this->form_validation->set_error_delimiters();
-			$this->form_validation->set_rules('total_paid', 'total_paid', 'trim|required|min_length[3]|max_length[10]|xss_clean');
-
-			if ($this->form_validation->run() == FALSE) {
+			if (!isset($total_paid)) {
 					echo validation_errors();
 					// redirect("Payroll/Generate_salary");
 			} else {
-
 				$data = array();
 				$data = array(
 					'emp_id' => $emid,
 					'month' => $month,
+					'type_id' => 2,
 					'year' => $year,
 					'paid_date' => $paydate,
 					'total_days' => $hours_worked,
@@ -917,132 +914,18 @@ $obj_merged = (object) array_merge((array) $employee_info, (array) $salaryvalueb
 					'status' => $status,
 					'paid_type' => $paid_type,
 				);
+
+				$success = $this->payroll_model->insertPaidSalaryData($data);			
+				// echo "DOne", var_dump($success);exit;
 				
-				// See if record exists
-				$get_salary_record = $this->payroll_model->getSalaryRecord($emid, $month,$year);
 
-				if($get_salary_record) {
-					$payID = $get_salary_record[0]->pay_id;
-					$payment_status = $get_salary_record[0]->status;
+				if($success){
+					echo "Successfully added";
+				}else{
+					echo "Encountered an error, try again";
 				}
 
-				// If exists, add/edit
-				if( isset($payID) && $payID > 0 ) {
-
-					if($payment_status == "Paid") {
-
-						echo "Has already been paid";
-
-					} else {
-
-						$success = $this->payroll_model->updatePaidSalaryData($payID, $data);
-
-						// Do the loan update
-						// if($success && $status == "Paid") {
-						//     $loan_info = $this->loan_model->GetLoanValuebyLId($loan_id);
-
-						//     // loan_id and loan fields already grabbed
-						//     if (!empty($loan_info)) {
-
-						//         $period = $loan_info->install_period - 1;
-						//         $number = $loan_info->loan_number;
-						//         $data = array();
-						//         $data = array(
-						//             'emp_id' => $emid,
-						//             'loan_id' => $loan_id,
-						//             'loan_number' => $number,
-						//             'install_amount' => $loan,
-						//             /*'pay_amount' => $payment,*/
-						//             'app_date' => $paydate,
-						//             /*'receiver' => $receiver,*/
-						//             'install_no' => $period
-						//             /*'notes' => $notes*/
-						//         );
-
-						//         $success_installment = $this->loan_model->Add_installData($data);
-
-						//         $totalpay = $loan_info->total_pay + $loan;
-						//         $totaldue = $loan_info->amount - $totalpay;
-						//         $period = $loan_info->install_period - 1;
-						//         $loan_status = $loan_info->status;
-
-						//         if ($period == '1') {
-						//             $loan_status = 'Done';
-						//         }
-
-						//         $data = array();
-						//         $data = array(
-						//             'total_pay'         => $totalpay,
-						//             'total_due'         => $totaldue,
-						//             'install_period'    => $period,
-						//             'status'            => $loan_status
-						//         );
-
-						//         $success_loan = $this->loan_model->update_LoanData($loan_id, $data);
-						//     }
-						// }
-						if($success == 'Paid'){
-							echo "Successfully added";
-
-						}
-
-					}
-
-				} else {
-					$success = $this->payroll_model->insertPaidSalaryData($data);
-					
-					if($success == "Paid"){
-						echo "Successfully added";
-					}
-					// Do the loan update
-					// if($success && $status == "Paid") {
-
-					//     // Input Status
-					//         $loan_info = $this->loan_model->GetLoanValuebyLId($loan_id);
-							
-					//         // loan_id and loan fields already grabbed
-					//         if (!empty($loan_info)) {
-
-					//             $period = $loan_info->install_period - 1;
-					//             $number = $loan_info->loan_number;
-					//             $data = array();
-					//             $data = array(
-					//                 'emp_id' => $emid,
-					//                 'loan_id' => $loan_id,
-					//                 'loan_number' => $number,
-					//                 'install_amount' => $loan,
-					//                 /*'pay_amount' => $payment,*/
-					//                 'app_date' => $paydate,
-					//                 /*'receiver' => $receiver,*/
-					//                 'install_no' => $period
-					//                 /*'notes' => $notes*/
-					//             );
-
-					//             $success_installment = $this->loan_model->Add_installData($data);
-
-					//             $totalpay = $loan_info->total_pay + $loan;
-					//             $totaldue = $loan_info->amount - $totalpay;
-					//             $period = $loan_info->install_period - 1;
-					//             $loan_status = $loan_info->status;
-
-					//             if ($period == '0') {
-					//                 $loan_status = 'Done';
-					//             }
-
-					//             $data = array();
-					//             $data = array(
-					//                 'total_pay'         => $totalpay,
-					//                 'total_due'         => $totaldue,
-					//                 'install_period'    => $period,
-					//                 'status'            => $loan_status
-					//             );
-
-					//             $success_loan = $this->loan_model->update_LoanData($loan_id, $data);
-					//         }
-
-					//     echo "Successfully added";
-					// }
-				}
+				
 			}
     	}
 		else {

@@ -38,7 +38,7 @@
                                         <thead>
                                             <tr>
                                                 <th>Employee Name</th>
-                                                <th>PIN</th>
+                                                <th>Staff ID</th>
                                                 <th>Title </th>
                                                 <th>Description</th>
                                                 <th>Status</th>
@@ -93,8 +93,8 @@
                                                         <div class="form-group">
                                                             <label class="control-label">Disciplinary Action</label>
                                                             <select class="form-control custom-select" data-placeholder="Choose a Category" tabindex="1" name="warning" value="">
-                                                                <option value="Verbel Warning">Verbel Warning</option>
-                                                                <option value="Writing Warning">Writing Warning</option>
+                                                                <option value="Verbal Warning">Verbal Warning</option>
+                                                                <option value="Written Warning">Written Warning</option>
                                                                 <option value="Demotion">Demotion</option>
                                                                 <option value="Suspension">Suspension</option>
                                                             </select>

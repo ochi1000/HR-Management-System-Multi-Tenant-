@@ -31,7 +31,7 @@
                                     <table id="" class="display nowrap table table-hover table-striped table-bordered" cellspacing="0" width="100%">
                                         <thead>
                                             <tr>
-                                                <th>Employee PIN</th>
+                                                <th>Staff ID</th>
                                                 <th>Employee Name </th>
                                                 <!--<th>Total Day </th>-->
                                                 <th>Total Hour </th>

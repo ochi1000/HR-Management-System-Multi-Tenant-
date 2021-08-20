@@ -75,7 +75,7 @@
 				                                <form class="row" action="Update" method="post" enctype="multipart/form-data">
 				                                    
 				                                    <div class="form-group col-md-4 m-t-10">
-				                                        <label>Employee PIN </label>
+				                                        <label>Staff ID </label>
 				                                        <input type="text" <?php if($this->session->userdata('user_type')=='EMPLOYEE'){ ?> readonly <?php } ?> class="form-control form-control-line" placeholder="ID" name="eid" value="<?php echo $basic->em_code; ?>" required > 
 				                                    </div>
 				                                    <div class="form-group col-md-4 m-t-10">
@@ -691,16 +691,8 @@
 			                                    <h3 class="card-title">Deduction</h3>
 			                                    <div class="row">
 			                                    <div class="form-group col-md-6 m-t-5">
-			                                        <label>Bima</label>
-			                                        <input type="text" name="bima" <?php if($this->session->userdata('user_type')=='EMPLOYEE'){ ?> readonly <?php } ?> class="form-control form-control-line" placeholder="bima..." value="<?php if(!empty($salaryvalue->bima)) echo $salaryvalue->bima ?>"> 
-			                                    </div>
-			                                    <div class="form-group col-md-6 m-t-5">
 			                                        <label>Tax</label>
 			                                        <input type="text" name="tax" <?php if($this->session->userdata('user_type')=='EMPLOYEE'){ ?> readonly <?php } ?> class="form-control form-control-line" placeholder="tax..." value="<?php if(!empty($salaryvalue->tax)) echo $salaryvalue->tax ?>" > 
-			                                    </div>
-			                                    <div class="form-group col-md-6 m-t-5">
-			                                        <label>Provident Fund</label>
-			                                        <input type="text" name="provident" <?php if($this->session->userdata('user_type')=='EMPLOYEE'){ ?> readonly <?php } ?> class="form-control form-control-line" placeholder="Provident..." value="<?php if(!empty($salaryvalue->provident_fund)) echo $salaryvalue->provident_fund ?>"> 
 			                                    </div>
 			                                    <div class="form-group col-md-6 m-t-5">
 			                                        <label>Others</label>

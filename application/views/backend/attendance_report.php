@@ -71,7 +71,7 @@
                                   <table id="example234" class="display nowrap table table-hover table-striped table-bordered" cellspacing="0" width="100%">
                                     <thead>
                                       <tr>
-                                        <th>PIN </th>
+                                        <th>Staff ID </th>
                                         <th>Name</th>
                                         <th>Date</th>
                                         <th>In</th>

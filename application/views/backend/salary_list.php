@@ -35,7 +35,7 @@
                                         <thead>
                                             <tr>
                                                 <th class="hide">SL </th>
-                                                <th>PIN </th>
+                                                <th>Staff ID </th>
                                                 <th>Employee </th>
                                                 <th>Month </th>
                                                 <th>Salary </th>
