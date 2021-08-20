@@ -6108,11 +6108,13 @@ input:-internal-autofill-selected{
 	width: 400px;
     
 }
-@media (max-width: 576px){
+@media screen 
+  and (max-device-width: 576px) {
 	.login-sidebar .login-box {
+		width: 80%;
 		margin-left:auto;
 	}
-}
+  }
 
 
 .minimal-faq .card {
