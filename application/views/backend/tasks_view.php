@@ -152,8 +152,8 @@
                                                <label class="control-label col-md-3">Type: </label>
                                                 <input name="type" type="radio" id="radio_4" data-value="Logistic" class="type" value="Office">
                                                 <label for="radio_4">Office</label>
-                                               <!-- <input name="type" type="radio" id="radio_5" data-value="Logistic" class="type" value="Field">
-                                                <label for="radio_5">Field</label>-->
+                                               <input name="type" type="radio" id="radio_5" data-value="Logistic" class="type" value="Field">
+                                                <label for="radio_5">Field</label>
                                               </div>  
                                     </div>
                                     <div class="modal-footer">

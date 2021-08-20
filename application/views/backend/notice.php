@@ -77,7 +77,7 @@
                                             <div class="form-group">
                                                 <label class="control-label">Document</label>
                                                 <label for="recipient-name1" class="control-label">Title</label>
-                                                <input type="file" name="file_url" class="form-control" id="recipient-name1" required>
+                                                <input type="file" name="file_url" class="form-control" id="recipient-name1">
                                             </div>
                                             <div class="form-group">
                                                 <label for="message-text" class="control-label">Published Date</label>

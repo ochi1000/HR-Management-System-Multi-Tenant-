@@ -881,8 +881,8 @@ $obj_merged = (object) array_merge((array) $employee_info, (array) $salaryvalueb
         if($this->session->userdata('user_login_access') != False) {
 			$emid = $this->input->post('emid');
 			$month = $this->month_number_to_name($this->input->post('month'));
-			// $basic = $this->input->post('basic');
-			$basic = $this->input->post('total_paid');
+			$basic = $this->input->post('basic');
+			// $basic = $this->input->post('total_paid');
 			$year = $this->input->post('year');
 			$hours_worked = $this->input->post('hours_worked');
 			$addition = $this->input->post('addition');
@@ -894,7 +894,7 @@ $obj_merged = (object) array_merge((array) $employee_info, (array) $salaryvalueb
 			$status = $this->input->post('status');
 			$paid_type = $this->input->post('paid_type');
 			
-			if (!isset($total_paid)) {
+			if (!isset($basic)) {
 					echo validation_errors();
 					// redirect("Payroll/Generate_salary");
 			} else {

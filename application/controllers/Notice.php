@@ -62,25 +62,25 @@ class Notice extends CI_Controller {
     
             $this->load->library('Upload', $config);
             $this->upload->initialize($config);                
-            if (!$this->upload->do_upload('file_url')) {
-                echo $this->upload->display_errors();
-                #redirect("notice/All_notice");
-			}
+            // if (!$this->upload->do_upload('file_url')) {
+            //     echo $this->upload->display_errors();
+            //     #redirect("notice/All_notice");
+			// }
    
-			else {
-                $path = $this->upload->data();
-                $img_url = $path['file_name'];
-                $data = array();
-                $data = array(
-                    'title' => $filetitle,
-                    'file_url' => $img_url,
-                    'date' => $ndate
-                );
+			
+			$path = $this->upload->data();
+			$img_url = $path['file_name'];
+			$data = array();
+			$data = array(
+				'title' => $filetitle,
+				'file_url' => $img_url,
+				'date' => $ndate
+			);
             $success = $this->notice_model->Published_Notice($data); 
             #$this->session->set_flashdata('feedback','Successfully Updated');
             #redirect("notice/All_notice");
-                echo "Successfully Added";
-			}
+			echo "Successfully Added";
+			
         }
             
         }

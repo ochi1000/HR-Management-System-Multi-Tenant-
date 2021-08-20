@@ -202,7 +202,7 @@
                                            <?php foreach($notice AS $value): ?>
                                             <tr class="scrollbar" style="vertical-align:top">
                                                 <td><?php echo $value->title ?></td>
-                                                <td><mark><a href="<?php echo base_url(); ?>assets/images/notice/<?php echo $value->file_url ?>" target="_blank"><?php echo $value->file_url ?></a></mark>
+                                                <td><a href="<?php echo base_url(); ?>assets/images/notice/<?php echo $value->file_url ?>" target="_blank"><?php echo $value->file_url ?></a>
                                                 </td>
                                                 <td style="width:100px"><?php echo $value->date ?></td>
                                             </tr>

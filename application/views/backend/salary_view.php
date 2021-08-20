@@ -254,7 +254,7 @@ $this->load->view('backend/sidebar');
                 <label class="control-label text-left col-md-5">Salary
                 </label>
                 <div class="col-md-7">
-                   <input type="text" name="total_paid" class="form-control total_paid" id="" value="" required>
+                   <input type="text" name="basic" class="form-control total_paid" id="" value="" required>
                 </div>
               </div>
               <div class="form-group row">
@@ -300,8 +300,8 @@ $this->load->view('backend/sidebar');
 									<div class="col-md-7">
 										<input name="status" type="radio" id="radio_1" data-value="Paid" class="duration" value="Paid" checked="checked">
 										<label for="radio_1">Paid</label>
-										<!-- <input name="status" type="radio" id="radio_2" data-value="Process" class="type" value="Process">
-										<label for="radio_2">Process</label> -->
+										<input name="status" type="radio" id="radio_2" data-value="Process" class="type" value="Process">
+										<label for="radio_2">Process</label>
 									</div>
 							</div>                            
               </div>              
