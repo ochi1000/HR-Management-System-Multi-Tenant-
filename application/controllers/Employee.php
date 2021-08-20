@@ -192,6 +192,45 @@ class Employee extends CI_Controller {
 		redirect(base_url() , 'refresh');
 	       }        
 		}
+
+	public function importEmployees(){
+		$this->load->library('csvimport');
+		$file_data = $this->csvimport->get_array($_FILES["csv_file"]["tmp_name"]);
+		$duplicates = array();
+		//echo $file_data;
+		foreach ($file_data as $row){
+			if($row["email"]){
+				$email = $row["email"];
+				$duplicate = $this->employee_model->Does_email_exists($email);
+				//print_r($duplicate);
+				if(!empty($duplicate)){
+					$duplicates = array($email);
+					// $this->session->set_flashdata('formdata',"$email Email already exists");
+					// echo " $email Email already exists";
+				} else {
+				$data = array();
+				$data = array(
+					'emp_id' => $row["Employee No"],
+					'atten_date' => date('Y-m-d',strtotime($row["Date"])),
+					'signin_time' => $row["Check-in at"],
+					'signout_time' => $row["Check-out at"],
+					'working_hour' => $row["Work Duration"],
+					'absence' => $row["Absence Duration"],
+					'overtime' => $row["Overtime Duration"],
+					'status' => 'A',
+					'place' => 'office'
+					); 
+					echo count($data); exit;
+					$this->employee_model->Add($data);
+				}		
+			}
+			else {
+				echo "No emails found";
+			}
+			// echo count($data); exit;
+			// echo "successfully Updated"; 
+		}
+	}
 	public function Update(){
     if($this->session->userdata('user_login_access') != False) {    
     $eid = $this->input->post('eid');    
