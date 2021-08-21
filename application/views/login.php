@@ -49,7 +49,7 @@
 							}
 							?>                                   
                 <form class="form-horizontal form-material" method="post" id="loginform" action="login/Login_Auth">
-                    <a href="javascript:void(0)" class="text-center db"><br/><img src="<?php echo base_url(); ?>assets/images/Parrot HR copy.png" height="125px" width="210px" alt="Home" /></a>
+                    <a href="javascript:void(0)" class="text-center db"><br/><img src="<?php echo base_url(); ?>assets/images/Parrot_HR_copy1.png" height="125px" width="210px" alt="Home" /></a>
                     <div class="form-group m-t-40">
                         <div class="col-xs-12">
                             <input class="form-control" name="email" value="<?php if(isset($_COOKIE['email'])) { echo $_COOKIE['email']; } ?>" type="text" required placeholder="Email">
