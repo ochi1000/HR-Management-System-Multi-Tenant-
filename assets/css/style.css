@@ -6097,17 +6097,23 @@ input:-internal-autofill-selected{
 
 .login-sidebar {
     padding: 0px;
-    margin-top: 0px
+    margin-top: 0px;
+	background-color: #1e008038;
+    background-blend-mode: overlay;
+}
+
+.form-material .form-control, .form-material .form-control.focus, .form-material .form-control:focus{
+	border-radius: 25px !important;
+	padding: 10px;
 }
 
 .login-sidebar .login-box {
     /* left: 0px; */
     position: absolute;
     height: 80%;
-    /* padding: 100px; */
     margin-left: 200px;
 	width: 400px;
-    
+    border-radius: 25px;
 }
 @media screen 
   and (max-device-width: 576px) {
@@ -9878,7 +9884,7 @@ pre {
 a.btn.btn-sm.btn-info.waves-effect.waves-light {border-radius: 0px;}
 .btn { border-radius: 0px;}
 .btn, .form-control {
-    border-radius: 0px!important;
+    border-radius: 25px!important;
 }
 /*
 .card-no-border .left-sidebar, .card-no-border .sidebar-nav {
@@ -9982,6 +9988,8 @@ ul.collapse.in {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 25px;
+    box-shadow: 1px 2px 15px 1px rgb(94, 94, 94);
 }
 button.btn.btn-info.btn-lg.btn-logino {
     padding: .75rem 1.5rem;
