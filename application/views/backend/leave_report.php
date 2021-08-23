@@ -61,7 +61,7 @@
                                         <!--<th>Total</th>-->
                                     </tr>
                                 </thead>
-                                <tfoot>
+                                <!-- <tfoot>
                                     <tr>
                                         <th>PIN </th>
                                         <th>Employee</th>
@@ -69,9 +69,9 @@
                                         <th>Duration</th>
                                         <th>Start</th>
                                         <th>End</th>
-                                        <!--<th>Total</th>-->
+                                        <th>Total</th>
                                     </tr>
-                                </tfoot>
+                                </tfoot> -->
                                 <tbody style="color:green" class="leave">
 
                                 </tbody>

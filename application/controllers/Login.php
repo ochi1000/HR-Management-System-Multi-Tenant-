@@ -75,7 +75,7 @@ class Login extends CI_Controller {
         
         }
 		else{
-			$this->session->set_flashdata('feedback','UserEmail or Password is Invalid');
+			$this->session->set_flashdata('feedback','Email or Password is incorrect');
 			redirect(base_url() . 'login', 'refresh');
 		}
 	}

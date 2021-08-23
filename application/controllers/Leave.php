@@ -34,9 +34,10 @@ class Leave extends CI_Controller
     public function index()
     {
         #Redirect to Admin dashboard after authentication
+		
         if ($this->session->userdata('user_login_access') == 1)
             redirect('dashboard/Dashboard');
-        $data = array();
+        // $data = array();
         #$data['settingsvalue'] = $this->dashboard_model->GetSettingsValue();
         $this->load->view('login');
     }
@@ -57,7 +58,7 @@ class Leave extends CI_Controller
             $result = $this->leave_model->GetAllHoliInfoForCalendar();
             print_r($result);
             die();
-            echo jason_encode($result);
+            echo json_encode($result);
            
         } else {
             redirect(base_url(), 'refresh');
@@ -541,28 +542,36 @@ class Leave extends CI_Controller
             $success = $this->leave_model->updateAplicationAsResolved($id, $data);
             if ($value == 'Approve') {
                 $determineIfNew = $this->leave_model->determineIfNewLeaveAssign($employeeId, $type);
+				// echo var_dump($determineIfNew);
                 //How much taken
                 $totalHour = $this->leave_model->getLeaveTypeTotal($employeeId, $type);
+				// echo var_dump($totalHour);
                 //If already taken some
-            //     if($determineIfNew  > 0) {
-            //         $total    = $totalHour[0]->totalTaken + $duration;
-            //         $data     = array();
-            //         $data     = array(
-            //             'hour' => $total
-            //         );
-            // $success  = $this->leave_model->updateLeaveAssignedInfo($employeeId, $type, $data);
-            // $earnval = $this->leave_model->emEarnselectByLeave($employeeId); 
-            //   $data = array();
-            //   $data = array(
-            //             'present_date' => $earnval->present_date - ($duration/8),
-            //             'hour' => $earnval->hour - $duration
-            //         );
-            // $success = $this->leave_model->UpdteEarnValue($employeeId,$data);                     
-            // echo "Updated successfully";
-			// header("Refresh: 0");
-            //     } else {
-                //If not taken yet
+                if($determineIfNew  > 0) {
+                    $total    = $totalHour[0]->totalTaken + $duration;
                     $data     = array();
+                    $data     = array(
+                        'hour' => $total
+                    );
+					// echo var_dump($data);
+
+					$success  = $this->leave_model->updateLeaveAssignedInfo($employeeId, $type, $data);
+					$earnval = $this->leave_model->emEarnselectByLeave($employeeId);
+					if(!$earnval){
+						echo "Employee already has a Leave record";
+					}else{
+						$data = array();
+						$data = array(
+							'present_date' => $earnval->present_date - ($duration/8),
+							'hour' => $earnval->hour - $duration
+						);
+						// echo var_dump($data);exit;
+						$success = $this->leave_model->UpdteEarnValue($employeeId,$data);                     
+						echo "Updated successfully";
+					}
+                } else {
+                //If not taken yet
+                    $data = array();
                     $data = array(
                         'emp_id' => $employeeId,
                         'type_id' => $type,
@@ -571,7 +580,7 @@ class Leave extends CI_Controller
                     );
                     $this->leave_model->insertLeaveAssignedInfo($data);
                     echo "Updated successfully";
-                // }
+                }
             } else {
                 echo "Updated successfully";
 				header("Refresh: 2");

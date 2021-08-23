@@ -6059,6 +6059,7 @@ a.mytooltip {
 }
 
 .login-register {
+	transform: rotateY(180deg);
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position: center center; */
@@ -9977,7 +9978,7 @@ ul.collapse.in {
 }
 /* Admin Panel */
 .card-body.loginpage {
-    /* padding: 50% 1.25em; */
+	transform: rotateY(180deg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10149,7 +10150,11 @@ button.btn.btn-info.btn-lg.btn-logino {
     color: #fff;
     max-width: 350px;
     height: auto;
-    display:none;
+	display: none;
+}
+
+.login-message{
+	color: #f88181;
 }
 
 .card-outline-info .card-header {

@@ -20,13 +20,26 @@ class Dashboard extends CI_Controller {
 	{
 		#Redirect to Admin dashboard after authentication
         if ($this->session->userdata('user_login_access') == 1)
-		redirect('dashboard/Dashboard');
+			redirect('dashboard/Dashboard');
 		// $data=array();
 		// $data['settingsvalue'] = $this->dashboard_model->GetSettingsValue();
 		$this->load->view('login');
 	}
     function Dashboard(){
-		$this->load->view('backend/dashboard');
+
+		$data=array();
+		$data['settingsvalue'] = $this->settings_model->GetSettingsValue();
+		if($data['settingsvalue']){
+			if($this->session->userdata('user_login_access') != False) {
+				$this->load->view('backend/dashboard');
+			}else{
+				redirect(base_url() , 'refresh');
+			}  
+		}else{
+			redirect(base_url() , 'refresh');
+		}  
+		
+		// echo var_dump($data['settingsvalue']);
         // if($this->session->userdata('user_login_access') != False) {
         // 	$this->load->view('backend/dashboard');
         // }
