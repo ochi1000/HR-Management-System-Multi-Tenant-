@@ -49,6 +49,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'login';
+
+$subdomain = join('.', explode('.', $_SERVER['HTTP_HOST'], -1));
+if($subdomain){
+	$mysqli = mysqli_init();
+	if (!$mysqli) {
+		die('mysqli_init failed');
+	}
+	$con = mysqli_connect('localhost', 'root', '', "genhr");
+	$select = mysqli_query($con, "SELECT `subdomain_name` FROM `tenants` WHERE `subdomain_name` = '$subdomain'") or exit(mysqli_error($con));
+	if(mysqli_num_rows($select)) {
+		$route['default_controller'] = 'login';
+	}else{
+		show_404();
+	}
+}else{
+	$route['default_controller'] = 'register';
+	// $route['default_controller'] = 'login';
+}
+// $route['default_controller'] = 'register';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
